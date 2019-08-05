@@ -6,6 +6,7 @@
     <meta name="description" content="深圳翼尚通信技术有限公司">
     <meta name="keywords" content="深圳翼尚通信技术有限公司">
     <link rel="stylesheet" type="text/css" href="./css/base.min.css">
+    <script type="text/javascript" src="./js/jquery18.js"></script>
 </head>
 <body>
     <!-- S 头部 -->
@@ -42,10 +43,10 @@
                 <strong id="btnnav" class="side"><a href="#" id="company"style="font-size:16px;">深圳翼尚通信技术有限公司<em class="tri"></em></a></strong>
                 <div class="lnks clearfix">
                     <ul class="lnks-li">
-                        <li><a class="lnk" href="p8.htm">存储器件及主控芯片方案集成</a></li>
-                        <li><a class="lnk" href="p1.htm">基础元器件</a></li>
-                        <li><a class="lnk" href="p10.htm">时钟源方案集成</a></li>
-                        <li><a class="lnk" href="p9.htm">高频开关电源方案集成</a></li>
+                        <li><a class="lnk" href="p-rad.htm">毫米波雷达</a></li>
+                        <li><a class="lnk" href="p-induct.htm">电容、电感、射频滤波</a></li>
+                        <li><a class="lnk" href="p-sem.htm">功率半导体开关</a></li>
+                        <li><a class="lnk" href="p-clock.htm">时钟源</a></li><li><a class="lnk" href="p-other.htm">其他</a></li>
                     </ul>
                 </div>
             </div>
@@ -81,7 +82,7 @@
                     <div class="bd" style="margin: 5px; padding:20px; line-height:25px;">
                         <p>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在翼尚，人际关系很简单。真诚是一种自然的共识，在开放式的办公环境和一致性的座位格局里，资历和层级都不会成为沟通的障碍，您可以在轻松高效的氛围中获得全方位的支持和帮助；同时，简单也有利于工作绩效的透明，优秀的员工更容易凸显出来而成为推动翼尚发展的绝对主力。</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;翼尚内部崇尚纯净平实。真诚是一种自然的共识，在开放式的办公环境和一致性的座位格局里，资历和层级都不会成为沟通的障碍。您可以在轻松高效的氛围中获得全方位的支持和帮助。平实优秀的员工更容易凸显出来而成为推动翼尚发展的主力。</p>
                     </div>
                     <br />
 					
@@ -93,7 +94,7 @@
                     <div class="bd" style="margin: 5px; padding:20px; line-height:25px;">
                         <p>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为客户服务、为社会创造价值，是企业立足的唯一的基石。得到客户的认可，公司才能发展、个人才能进步充实。翼尚价值观总结为“以奋斗者为本”。无论项目的大小，难度的高低，我们的目标始终一致，以专业和勤奋来超越客户的期望。</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;创新和奉献，被定义为奋斗者。 奋斗者是翼尚优秀员工的标准，公司以奋斗者为本。无论项目的大小，难度的高低，我们的目标始终一致，以专业和勤奋来超越客户的期望。</p>
                     </div>
 					
                     <div class="hd">
@@ -106,9 +107,9 @@
                     <div class="detail-items">
                         <ul id="mycarousel" class="jcarousel-skin-tango" style="text-align:center">
                             <li>
-                                <img clsid="1" src="images/p9.png"  alt="精英团队" />
+                                <img clsid="1" src="images/p9.png"  alt="精英团队" style="width: 94%"/>
                                 <div class="text">
-                                    </div>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -123,7 +124,7 @@
 <!--                    <div class="hd">
                         <h3 class="title">员工感言</h3>
                     </div>-->
-                    <div class="bd" style="padding:10px 10px 205px 10px;; line-height:25px;height:890px;">
+                    <div class="bd" style="padding:10px 10px 97px 10px;; line-height:25px;height:890px;">
 						<b>深圳翼尚通信技术有限公司：</b><br />
                         深圳市南山区科苑南路粤兴三道2号 虚拟大学园产业化基地C705<br />
                         邮编：518057  <br />
@@ -250,7 +251,25 @@
         </div>
     </div>
 
-    <script type="text/javascript" src="./js/base.min.js"></script>
-
+    <div class="scroll-top"></div><script type="text/javascript" src="./js/base.min.js"></script>
+    <script type="text/javascript">
+        var isShowList = false;
+        $("#company").click(function(){
+              if (!isShowList)
+              {
+                $("#showlist").css("display","block");
+              }
+              else
+              {
+                $("#showlist").css("display","none");
+              }
+              isShowList = !isShowList;
+              return false;
+        })
+        $("#showlistUL").mouseleave(function(){
+          $("#showlist").css("display","none");
+          isShowList = false;
+        })
+    </script>
 </body>
 </html>
