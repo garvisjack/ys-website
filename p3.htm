@@ -1,0 +1,363 @@
+﻿<!DOCTYPE html>
+<html xml:lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>深圳翼尚通信技术有限公司</title>
+    <meta name="description" content="深圳翼尚通信技术有限公司">
+    <meta name="keywords" content="深圳翼尚通信技术有限公司">
+    <link rel="stylesheet" type="text/css" href="./css/base.min.css">
+    <script type="text/javascript" src="./js/jquery18.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/heyue-index.min.css">
+    <link rel="stylesheet" href="./css/styles.css" type="text/css">
+    <script type="text/javascript">
+        $(function() {
+            $("img.item").click(function() {
+                var lImg = $(this).attr("lImg");
+                $("#largeimg").attr("src", lImg);
+                $("img.item").each(function() {
+                    $(this).removeClass("selected");
+                });
+                $(this).addClass("selected");
+            });
+        });       
+    </script>
+</head>
+<body>
+    <!-- S 头部 -->
+    <div class="header container">
+        <div class="top">
+            <div class="logo">
+                <a class="icon-common icon-common-logo" href="./index.htm" title="翼尚官网"></a>
+            </div>
+            <div class="right clearfix">
+                <div class="menu">
+                    <ul class="clearfix">
+                        <li>
+                            <label id="header_menu_top_login">
+                                <a href="company.htm">企业文化</a>
+                            </label>
+                        </li>
+                        <li><a href="aboutus.htm">关于翼尚</a> </li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <br />
+                    <br />
+                    <label class="hot">
+                        <a href="p1.htm">MODULE</a> <!--a href="p2.htm">FLASH</a--> <a href="p3.htm">MURATA</a>
+                        <a href="p4.htm">TDK</a> <a href="p5.htm">SAMSUNG</a> <a href="p6.htm">YAGEO</a> <a href="p61.htm">OTHERS</a>
+                    </label>
+                </div>
+                <div class="shop">
+                    <a class="pay" href="contact.htm"><i class="icon-common icon-common-carthover"></i>联系我们</a>
+                </div>
+                <div style="position: absolute; right: 31px; top: 78px;">
+                    <a href="maileto:service@eshinecomm.com.cn">电子邮件：service@eshinecomm.com.cn</a>
+                </div>
+            </div>
+        </div>
+        <div class="nav navon">
+            <div class="clearfix">
+                <strong id="btnnav" class="side"><a href="#" id="company">深圳翼尚电子有限公司<em class="tri"></em></a></strong>
+                <div class="lnks clearfix">
+                    <ul class="lnks-li">
+                        <li><a class="lnk" href="p1.htm">模块 / MODULE </a></li>
+                        <!--li><a class="lnk" href="p2.htm">存储 / FLASH</a></li-->
+                        <li><a class="lnk" href="p3.htm">MURATA</a></li>
+                        <li><a class="lnk" href="p4.htm">TDK</a></li>
+                        <li><a class="lnk" href="p5.htm">SAMSUNG</a></li>
+                        <li><a class="lnk" href="p6.htm">YAGEO</a></li>
+                        <li><a class="lnk" href="p61.htm">OTHERS</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="showlist" class="showlist" style="display:none;">
+                <ul id="showlistUL" class="lists">
+                    <li>
+                        <a class="tit" href="contact.htm#com2">南京翼尚通信技术有限公司</a>
+                    </li>
+                    <li>
+                        <a class="tit" href="contact.htm#com1">深圳翼尚通信技术有限公司</a>
+                    </li>
+                    <li>
+                        <a class="tit" href="contact.htm#com3">HONGKONG ESHINE TECHNOLOGY CO., LIMITED</a>
+                    </li>
+                </ul>
+            </div>
+            <script type="text/javascript">
+                var isShowList = false;
+                $("#company").click(function(){
+                      if (!isShowList)
+                      {
+                        $("#showlist").css("display","block");
+                      }
+                      else
+                      {
+                        $("#showlist").css("display","none");
+                      }
+                      isShowList = !isShowList;
+                      return false;
+                })
+                $("#showlistUL").mouseleave(function(){
+                  $("#showlist").css("display","none");
+                  isShowList = false;
+                })
+            </script>
+        </div>
+    </div>
+    
+    <!-- E 头部 -->
+    <link rel="stylesheet" type="text/css" href="./css/telComStyle.css">
+    <div class="container" style="background: #FFF">
+               
+                <table width="100%" border="0" cellspacing="0" cellpadding="3">
+                    <tr>
+                        <td align="right" colspan="2" style="height: 80px; background: #FFF">
+                            <a href="http://www.murata.com.cn/products/lineup/index.html" target="_black"><img src="images/items/murata_s.png" /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="height: 80px;background: #EFEFEF;padding:5px;">
+                            <table width="100%">
+                                <tr>
+                                    <td class="img"><a href="p3-1.htm"><img class="item" src="images/items/tdk-p1.png" limg="images/items/tdk-pp1.jpg" style="width:125px;" border="0" /></a></td>
+                                    <td width="100%"></td>
+                                    <td class="img"><a href="images/Murata.pdf"><img class="item" src="images/pdf.jpg" style="width:80px;" border="0" /></a></td>
+                                    <td class="img"><a href="images/Murata-Names.pdf"><img class="item" src="images/pdf.jpg"  style="width:80px;" border="0" /></a></td>
+                                </tr>
+                                <tr>
+                                    <td align=center><a href="p3-1.htm" target="_black">查看产品详细</a></td>
+                                    <td></td>
+                                    <td align="center"><a href="images/Murata.pdf">产品介绍（1）</a></td>
+                                    <td align="center"><a href="images/Murata-Names.pdf">产品介绍（2）</a></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2" style="height:40px; font-size:20px; font-weight:bold; background: #FAFAFA">
+                            电容器
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <img id="Img0rgeimg" src="images/items/p1.jpg" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2" style="height:40px; font-size:20px; font-weight:bold; background: #FAFAFA">
+                            静噪元件 / EMIFIL滤波器
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <img id="Img1" src="images/items/p2.jpg" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2" style="height:40px; font-size:20px; font-weight:bold; background: #FAFAFA">
+                            电感器（线圈）
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <img id="Img2" src="images/items/p3.jpg" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2" style="height:40px; font-size:20px; font-weight:bold; background: #FAFAFA">
+                            电阻器
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <img id="largeimg" src="images/items/p4.jpg" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2" style="height:40px; font-size:20px; font-weight:bold; background: #FAFAFA">
+                            时钟元件
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <img id="Img3" src="images/items/p5.jpg" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2" style="height:40px; font-size:20px; font-weight:bold; background: #FAFAFA">
+                            声像机器用滤波器
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <img id="Img4" src="images/items/p6.jpg" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2" style="height:40px; font-size:20px; font-weight:bold; background: #FAFAFA">
+                            通信设备用滤波器
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <img id="Img5" src="images/items/p7.jpg" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2" style="height:40px; font-size:20px; font-weight:bold; background: #FAFAFA">
+                            射频 元件/模块
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <img id="Img6" src="images/items/p8.jpg" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2" style="height:40px; font-size:20px; font-weight:bold; background: #FAFAFA">
+                            传感器
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <img id="Img7" src="images/items/p9.jpg" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2" style="height:40px; font-size:20px; font-weight:bold; background: #FAFAFA">
+                            热敏电阻
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <img id="Img8" src="images/items/pp10.jpg" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2" style="height:40px; font-size:20px; font-weight:bold; background: #FAFAFA">
+                            电源
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <img id="Img9" src="images/items/pp11.jpg" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2" style="height:40px; font-size:20px; font-weight:bold; background: #FAFAFA">
+                            声音元件
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <img id="Img10" src="images/items/pp12.jpg" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2" style="height:40px; font-size:20px; font-weight:bold; background: #FAFAFA">
+                            结陶应用产品
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <img id="Img11" src="images/items/pp13.jpg" />
+                        </td>
+                    </tr>
+                    
+                </table>
+        
+        
+    </div>
+    
+    <!--常见问题-->
+    <div id="hyFaq" class="modal hide faq-pop">
+        <div class="modal-header">
+            <span class="close" data-dismiss="modal">×</span>
+            <h3>常见问题</h3>
+        </div>
+        <div class="modal-body"></div>
+    </div>
+    
+
+    <script type="text/javascript">
+    jQuery(function ($) {
+        $(".showFaq").click(function(){
+          $("#hyFaq").modal("show");
+          var t=$(this).attr("url");
+          $("#hyFaq").find(".modal-body").load(t);
+          return false;
+        })
+    });
+</script>
+
+    <!-- SS 底部 -->
+    <div class="footer container">
+        <div class="footerup">
+            <div class="footercont">
+                <ul class="nums clearfix">
+                    <li class="first"><a href="#"><span>1</span> <strong><label>简单</label>简单成就判断力 </strong></a></li>
+                    <li class="line">|</li>
+                    <li class="second"><a href="#"><span>2</span> <strong><label>快速</label>快速成就执行力 </strong></a></li>
+                    <li class="line">|</li>
+                    <li class="third"><a href="#"><span>3</span> <strong><label>专业</label>专业成就生命力 </strong></a></li>
+                    <li class="line"></li>
+                    <li class="fourth"><a href="#"><span>4</span> <strong><label>系统</label>系统成就成长力 </strong></a></li>
+                </ul>
+                <div class="service clearfix">
+                    <dl>
+                        <dt>中国-深圳</dt>
+                        <dd><nobr>邮编：518057 </nobr></dd>
+                        <dd><nobr>电话：0755-86250470；0755-26656613</nobr></dd>
+                        <dd><nobr>传真：0755-86250420；QQ：2880708188</nobr></dd>
+                        <dd><nobr>邮箱：<a href="mailto:gao_becky@eshinecomm.com.cn">gao_becky@eshinecomm.com.cn</a></nobr></dd>
+                    </dl>
+                    <dl>
+                        <dd></dd>
+                    </dl>
+                    <dl>
+                        <dt>ShenZhen, China</dt>
+                        <dd><nobr>Post: 518057 </nobr></dd>
+                        <dd><nobr>Tel: 0086-755-26656695; 0086-755-26656655</nobr></dd>
+                        <dd><nobr>Fax: 0086-755-86250420</nobr></dd>
+                        <dd><nobr>Email: <a href="mailto:service@eshinecomm.com.cn">service@eshinecomm.com.cn</a></nobr></dd>
+                    </dl>
+                    <dl>
+                        <dd></dd>
+                    </dl>
+                    <dl>
+                        <dt>HongKong, China</dt>
+                        <dd><nobr>Add: 1/F., CMA Building,</nobr><br /> <nobr>64-66 Connaught Road Central</nobr></dd>
+                        <dd></dd>
+                        <dd><nobr>Tel: 00852-69529390</nobr></dd>
+                        <dd><nobr>Email: <a href="mailto:service@eshinecomm.com.cn">service@eshinecomm.com.cn</a></nobr></dd>
+                    </dl>
+                    <div class="online" style=" padding-left:20xp;">
+                        <ul>
+                            <li class="item1"><span class="icon-common icon-common-tel"></span>755-86250470</li>
+                            <li class="item2">您可以来电，周一至周日8:00-20:00 </li>
+                            <li class="item3 clearfix"><a class="btn btn-green" href="#"><span class="icon-common icon-common-face"></span>期待您与我们联系</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerbtm">
+            <div class="info">
+                <p>© <a href="./" target="_blank">深圳翼尚通信技术有限公司</a> 版权所有 2012 粤ICP备09145810号</p>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="./js/base.min.js"></script>
+
+</body>
+</html>

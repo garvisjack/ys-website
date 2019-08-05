@@ -1,0 +1,764 @@
+﻿<!DOCTYPE html>
+<html xml:lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>深圳翼尚通信技术有限公司</title>
+    <meta name="description" content="深圳翼尚通信技术有限公司">
+    <meta name="keywords" content="深圳翼尚通信技术有限公司">
+    <link rel="stylesheet" type="text/css" href="./css/base.min.css">
+    <script type="text/javascript" src="./js/jquery18.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/heyue-index.min.css">
+    <link rel="stylesheet" href="./css/styles.css" type="text/css">
+    <script type="text/javascript">
+        $(function() {
+            $("img.item").click(function() {
+                var lImg = $(this).attr("lImg");
+                $("#largeimg").attr("src", lImg);
+                $("img.item").each(function() {
+                    $(this).removeClass("selected");
+                });
+                $(this).addClass("selected");
+            });
+        });       
+    </script>
+</head>
+<body>
+    <!-- S 头部 -->
+    <div class="header container">
+        <div class="top">
+            <div class="logo">
+                <a class="icon-common icon-common-logo" href="./index.htm" title="翼尚官网"></a>
+            </div>
+            <div class="right clearfix">
+                <div class="menu">
+                    <ul class="clearfix">
+                        <li>
+                            <label id="header_menu_top_login">
+                                <a href="company.htm">企业文化</a>
+                            </label>
+                        </li>
+                        <li><a href="aboutus.htm">关于翼尚</a> </li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <br />
+                    <br />
+                    <label class="hot">
+                        <a href="p1.htm">MODULE</a> <!--a href="p2.htm">FLASH</a--> <a href="p3.htm">MURATA</a>
+                        <a href="p4.htm">TDK</a> <a href="p5.htm">SAMSUNG</a> <a href="p6.htm">YAGEO</a> <a href="p61.htm">OTHERS</a>
+                    </label>
+                </div>
+                <div class="shop">
+                    <a class="pay" href="contact.htm"><i class="icon-common icon-common-carthover"></i>联系我们</a>
+                </div>
+                <div style="position: absolute; right: 31px; top: 78px;">
+                    <a href="maileto:service@eshinecomm.com.cn">电子邮件：service@eshinecomm.com.cn</a>
+                </div>
+            </div>
+        </div>
+        <div class="nav navon">
+            <div class="clearfix">
+                <strong id="btnnav" class="side"><a href="#" id="company">深圳翼尚电子有限公司<em class="tri"></em></a></strong>
+                <div class="lnks clearfix">
+                    <ul class="lnks-li">
+                        <li><a class="lnk" href="p1.htm">模块 / MODULE </a></li>
+                        <!--li><a class="lnk" href="p2.htm">存储 / FLASH</a></li-->
+                        <li><a class="lnk" href="p3.htm">MURATA</a></li>
+                        <li><a class="lnk" href="p4.htm">TDK</a></li>
+                        <li><a class="lnk" href="p5.htm">SAMSUNG</a></li>
+                        <li><a class="lnk" href="p6.htm">YAGEO</a></li>
+                        <li><a class="lnk" href="p61.htm">OTHERS</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="showlist" class="showlist" style="display:none;">
+                <ul id="showlistUL" class="lists">
+                    <li>
+                        <a class="tit" href="contact.htm#com2">南京翼尚通信技术有限公司</a>
+                    </li>
+                    <li>
+                        <a class="tit" href="contact.htm#com1">深圳翼尚通信技术有限公司</a>
+                    </li>
+                    <li>
+                        <a class="tit" href="contact.htm#com3">HONGKONG ESHINE TECHNOLOGY CO., LIMITED</a>
+                    </li>
+                </ul>
+            </div>
+            <script type="text/javascript">
+                var isShowList = false;
+                $("#company").click(function(){
+                      if (!isShowList)
+                      {
+                        $("#showlist").css("display","block");
+                      }
+                      else
+                      {
+                        $("#showlist").css("display","none");
+                      }
+                      isShowList = !isShowList;
+                      return false;
+                })
+                $("#showlistUL").mouseleave(function(){
+                  $("#showlist").css("display","none");
+                  isShowList = false;
+                })
+            </script>
+        </div>
+    </div>
+    
+    <!-- E 头部 -->
+    <link rel="stylesheet" type="text/css" href="./css/telComStyle.css">
+    <div class="container" style="background: #FFF">
+               
+                <table width="100%" border="0" cellspacing="0" cellpadding="3">
+                    <tr>
+                        <td align="right" colspan="2" style="height: 80px; background: #FFF">
+                            <a href="http://www.murata.com.cn/products/lineup/index.html" target="_black"><img src="images/items/murata_s.png" /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="height: 80px;background: #EFEFEF;padding:5px;">
+                            <table width="100%">
+                                <tr>
+                                    <td class="img"><a href="p3.htm"><img class="item" src="images/items/tdk-p1.png" limg="images/items/tdk-pp1.jpg" width="125" border="0" /></a></td>
+                                    <td width="100%"></td>
+                                    <td class="img"><a href="images/Murata.pdf"><img class="item" src="images/pdf.jpg" width="80" border="0" /></a></td>
+                                    <td class="img"><a href="images/Murata-Names.pdf"><img class="item" src="images/pdf.jpg" width="80" border="0" /></a></td>
+                                </tr>
+                                <tr>
+                                    <td align=center><a href="p3.htm" target="_black">查看产品列表</a></td>
+                                    <td></td>
+                                    <td align="center"><a href="images/Murata.pdf">产品介绍（1）</a></td>
+                                    <td align="center"><a href="images/Murata-Names.pdf">产品介绍（2）</a></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" colspan="2">
+                            <div class="hpa-af c-std">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top" width="100">
+                                            <img class="item" src="images/items/m15.jpg" width="300" />
+                                        </td>
+                                        <td width="0">
+                                        </td>
+                                        <td valign="top">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="detail">
+                                                <tr>
+                                                    <td align="left" class="title">
+                                                        传感器：
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>
+                                                            村田制作所采用压电陶瓷和磁阻元件，开发了一系列传感技术，从而能够检测热度、红外线、超声波、振动、加速度、角速度、角位移、旋转、磁气和电场。这些产品被广泛应用于如白色家电、视听设备、特别是汽车电子设备中，它对提高用户的使用体验度和使用便利性做出了贡献。</p>
+                                                        <p>
+                                                            提供磁性识别传感器、旋转传感器、旋转角度传感器、角速度传感器、红外线传感器、超声波传感器、冲击传感器、倾斜传感器和加速度传感器。</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" colspan="2">
+                            <div class="hpa-af c-std">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top" width="100">
+                                            <img class="item" src="images/items/m11.jpg" width="300" />
+                                        </td>
+                                        <td width="0">
+                                        </td>
+                                        <td valign="top">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="detail">
+                                                <tr>
+                                                    <td align="left" class="title">
+                                                        射频 元件/模块：
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>
+                                                            为帮助您获得通信设备的技术优势，村田制作所根据许多应用要求提供小型/精密元件和模块。</p>
+                                                        <p>
+                                                            提供天线、隔离器、天线开关、均衡器 (片状多层、绕线/薄膜型)、耦合器 (片状多层、薄膜型)、片状多层元件 (混合分频器、收发双工器)、高频同轴接插器、薄膜电路基片“RUSUB?”、高频用单层微片电容器和、Wi-Fi/Bluetooth?/地面数字视频模块。</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" colspan="2">
+                            <div class="hpa-af c-std">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top" width="100">
+                                            <img class="item" src="images/items/m13.jpg" width="300" />
+                                        </td>
+                                        <td width="0">
+                                        </td>
+                                        <td valign="top">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="detail">
+                                                <tr>
+                                                    <td align="left" class="title">
+                                                        电感器(线圈)：
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>
+                                                            村田制作所利用独特的陶瓷工艺和独创的材料技术、生产许多可以适合各种应用需求的电感产品。</p>
+                                                        <p>
+                                                            提供电源用电感 (功率电感、扼流用电感)、片状电感 (一般用、高频用、汽车用)</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" colspan="2">
+                            <div class="hpa-af c-std">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top" width="100">
+                                            <img src="images/items/m4.jpg" width="300" class="item" />                                        </td>
+                                        <td width="0">
+                                        </td>
+                                        <td valign="top">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="detail">
+                                                <tr>
+                                                    <td align="left" class="title">
+                                                        电容器：
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>利用村田制作所的独创材料技术，可以提供包括宽电压范围的各种电容器。我们同时提供包括设计辅助工具和一整套软件工具的技术支持，以便根据许多应用要求虚拟仿真任何电路条件。<br />
+                                                      村田为您提供独石陶瓷电容器 (一般用和汽车用电容器、中压用电容器、安全规格认证型电容器和引线型电容器)、引线型陶瓷电容器 (中压用、安全规格认证型)、高频用单层微片电容器和陶瓷微调电容器。                                                  </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" colspan="2">
+                            <div class="hpa-af c-std">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top" width="100">
+                                            <img class="item" src="images/items/m1.jpg" width="300" />
+                                        </td>
+                                        <td width="0">
+                                        </td>
+                                        <td valign="top">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="detail">
+                                                <tr>
+                                                    <td align="left" class="title">
+                                                        电气双层电容器：
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        村田的聚合物电容器具有低ESR值，低感值，和大容量等特点。 并且，由于其静电容量无DC偏置特性和稳定的温度特性，能有效吸收纹波电流，起到平滑作用并具有高瞬间响应性能。
+                                                        因此，它适用于平滑多种用输入输出电源电路，并可对CPU周边进行负载备份。 根据以上特点，它为节省空间和减少元件起到作用。
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" colspan="2">
+                            <div class="hpa-af c-std">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top" width="100">
+                                            <img class="item" src="images/items/m2.jpg" width="300" />
+                                        </td>
+                                        <td width="0">
+                                        </td>
+                                        <td valign="top">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="detail">
+                                                <tr>
+                                                    <td align="left" class="title">
+                                                        负离子发生器：
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        “Ionissimo?”是一种负离子发生器，结构紧凑，高效，并且是业内离子发生量最大的一款产品，而这一点得益于村田自主的高电压技术及结构设计。为了使产品更模块化，更容易的嵌入到设备中，村田把离子发生器与驱动电源连接到了一起。
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" colspan="2">
+                            <div class="hpa-af c-std">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top" width="100">
+                                            <img class="item" src="images/items/m3.jpg" width="300" />
+                                        </td>
+                                        <td width="0">
+                                        </td>
+                                        <td valign="top">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="detail">
+                                                <tr>
+                                                    <td align="left" class="title">
+                                                        无线供电模块：
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        村田制作所实现了输出功率为10W的电场耦合式无线供电模块的量产化。<br />
+                                                        通过使用这个模块，我们能够为各种电子设备进行无线充电 (无需电线、插头等、只要将电子设备放在充电台上就能进行充电) 。
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" colspan="2">
+                            <div class="hpa-af c-std">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top" width="100">
+                                            <img class="item" src="images/items/m5.jpg" width="300" />
+                                        </td>
+                                        <td width="0">
+                                        </td>
+                                        <td valign="top">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="detail">
+                                                <tr>
+                                                    <td align="left" class="title">
+                                                        电阻器：
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>
+                                                            村田制作所利用特有陶瓷材料工艺和独创加工技术，提供各种电阻产品。<br />
+                                                            提供微调电位器和高压电阻。</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" colspan="2">
+                            <div class="hpa-af c-std">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top" width="100">
+                                            <img class="item" src="images/items/m6.jpg" width="300" />
+                                        </td>
+                                        <td width="0">
+                                        </td>
+                                        <td valign="top">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="detail">
+                                                <tr>
+                                                    <td align="left" class="title">
+                                                        通信设备用滤波器：
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        利用村田制作所的陶瓷工艺技术和独创材料，可以提供先进通信设备用具有卓越特性的小型化滤波器。<br />
+                                                        提供射频/局部用滤波器 (表面波滤波器、介质滤波器“GIGAFIL?”)、LC滤波器、天线/收发双工器 (表面波收发双工器、介质收发双工器“GIGAFIL?”)
+                                                        以及中频用滤波器 (陶瓷滤波器“CERAFIL?”、表面波滤波器)。
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" colspan="2">
+                            <div class="hpa-af c-std">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top" width="100">
+                                            <img class="item" src="images/items/m7.jpg" width="300" />
+                                        </td>
+                                        <td width="0">
+                                        </td>
+                                        <td valign="top">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="detail">
+                                                <tr>
+                                                    <td align="left" class="title">
+                                                        热敏电阻：
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>
+                                                            我们采用村田制作所的半导体陶瓷和电极网印技术，可以提供对于电子设备检知和保护不可或缺的正温度系数 (PTC) 热敏电阻和负温度系数 (NTC) 热敏电阻。</p>
+                                                        <p>
+                                                            提供正温度系数 (PTC) 热敏电阻“POSISTOR?”(用于加热器、电机起动器、过电流保护、 过热检测和汽车) 和负温度系数 (NTC) 热敏电阻 (用于突入电流防护、温度检测、温度补偿和汽车)。</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" colspan="2">
+                            <div class="hpa-af c-std">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top" width="100">
+                                            <img class="item" src="images/items/m8.jpg" width="300" />
+                                        </td>
+                                        <td width="0">
+                                        </td>
+                                        <td valign="top">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="detail">
+                                                <tr>
+                                                    <td align="left" class="title">
+                                                        陶瓷应用产品：
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>
+                                                            利用村田制作所的独创陶瓷材料，可以提供各种陶瓷应用产品。</p>
+                                                        <p>
+                                                            提供LTCC多层基片 (LFC)。</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" colspan="2">
+                            <div class="hpa-af c-std">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top" width="100">
+                                            <img class="item" src="images/items/m9.jpg" width="300" />
+                                        </td>
+                                        <td width="0">
+                                        </td>
+                                        <td valign="top">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="detail">
+                                                <tr>
+                                                    <td align="left" class="title">
+                                                        静噪元件/EMI静噪滤波器：
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>
+                                                            利用村田制作所的陶瓷工艺技术和独创材料，可以提供各种静噪产品和EMI静噪滤波器。村田制作所基于在静噪领域的多年经验，同时提供技术支持和指南。我公司的技术支持包括设计辅助工具、应用手册和一整套软件工具，以便虚拟仿真任何电路条件。</p>
+                                                        <p>
+                                                            提供静噪滤波器“EMIFIL?”(片状、引线、铁氧体磁珠)、共模扼流线圈 (片状、引线)、交流电路滤波器、汽车用静噪产品、微波吸收薄片、铁氧体磁芯和ESD保护器件等。</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" colspan="2">
+                            <div class="hpa-af c-std">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top" width="100">
+                                            <img class="item" src="images/items/m10.jpg" width="300" />
+                                        </td>
+                                        <td width="0">
+                                        </td>
+                                        <td valign="top">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="detail">
+                                                <tr>
+                                                    <td align="left" class="title">
+                                                        振荡子：
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>
+                                                            村田制作所的陶瓷工艺技术和独创压电材料引领了一系列小而薄的高精度陶瓷振荡子的发展。</p>
+                                                        <p>
+                                                            提供MHz、kHz的陶瓷振荡子“CERALOCK?”和水晶振荡子。</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" colspan="2">
+                            <div class="hpa-af c-std">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top" width="100">
+                                            <img class="item" src="images/items/m12.jpg" width="300" />
+                                        </td>
+                                        <td width="0">
+                                        </td>
+                                        <td valign="top">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="detail">
+                                                <tr>
+                                                    <td align="left" class="title">
+                                                        电源：
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>
+                                                            为满足小型化、薄型、高效率、节能、低噪声电源的需求，村田制作所提供能与各种设备配合使用的电源产品，诸如视频设备、信息家电和通信、传输设备。村田制作所提供标准产品和定制产品，其采用高可靠性、村田制作所制造的元件，充分利用先进的设计技术和高密度封装技术。</p>
+                                                        <p>
+                                                            提供DC-DC转换器、开关电源、高压电源和负离子发生装置。</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" colspan="2">
+                            <div class="hpa-af c-std">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top" width="100">
+                                            <img class="item" src="images/items/m14.jpg" width="300" />
+                                        </td>
+                                        <td width="0">
+                                        </td>
+                                        <td valign="top">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="detail">
+                                                <tr>
+                                                    <td align="left" class="title">
+                                                        声像机器用滤波器：
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>
+                                                            利用村田制作所的陶瓷工艺技术和独创材料，可以提供陶瓷滤波器“CERAFIL?”和表面波滤波器之类的元件，支持高性能、数字化的视听系统和家用电脑的开发。</p>
+                                                        <p>
+                                                            提供陶瓷滤波器“CERAFIL?”(滤波器、陷波器、鉴频器) 和表面波滤波器 (用于电视机、VTR、数字设备)。</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" colspan="2">
+                            <div class="hpa-af c-std">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top" width="100">
+                                            <img class="item" src="images/items/m16.jpg" width="300" />
+                                        </td>
+                                        <td width="0">
+                                        </td>
+                                        <td valign="top">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="detail">
+                                                <tr>
+                                                    <td align="left" class="title">
+                                                        声音元件：
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>
+                                                            利用村田制作所的独创材料提供各种压电声音元件。</p>
+                                                        <p>
+                                                            提供压电振动板、压电蜂鸣器、压电扩音器和压电振铃。</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" colspan="2">
+                            <div class="hpa-af c-std">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top" width="100">
+                                            <img src="images/items/m17.jpg" width="300" class="item" />
+                                        </td>
+                                        <td width="0">
+                                        </td>
+                                        <td valign="top">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="detail">
+                                                <tr>
+                                                    <td align="left" class="title">
+                                                        微型机电产品：
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>
+                                                            利用了压电材料的振动和变形性质，村田生产的微型鼓风机及致动器可满足各多种应用需求。</p>
+                                                        <p>
+                                                            提供压电致动器</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+
+                    
+                </table>
+        
+        
+    </div>
+    
+    <!--常见问题-->
+    <div id="hyFaq" class="modal hide faq-pop">
+        <div class="modal-header">
+            <span class="close" data-dismiss="modal">×</span>
+            <h3>常见问题</h3>
+        </div>
+        <div class="modal-body"></div>
+    </div>
+    
+
+    <script type="text/javascript">
+    jQuery(function ($) {
+        $(".showFaq").click(function(){
+          $("#hyFaq").modal("show");
+          var t=$(this).attr("url");
+          $("#hyFaq").find(".modal-body").load(t);
+          return false;
+        })
+    });
+</script>
+
+    <!-- SS 底部 -->
+    <div class="footer container">
+        <div class="footerup">
+            <div class="footercont">
+                <ul class="nums clearfix">
+                    <li class="first"><a href="#"><span>1</span> <strong><label>简单</label>简单成就判断力 </strong></a></li>
+                    <li class="line">|</li>
+                    <li class="second"><a href="#"><span>2</span> <strong><label>快速</label>快速成就执行力 </strong></a></li>
+                    <li class="line">|</li>
+                    <li class="third"><a href="#"><span>3</span> <strong><label>专业</label>专业成就生命力 </strong></a></li>
+                    <li class="line"></li>
+                    <li class="fourth"><a href="#"><span>4</span> <strong><label>系统</label>系统成就成长力 </strong></a></li>
+                </ul>
+                <div class="service clearfix">
+                    <dl>
+                        <dt>中国-深圳</dt>
+                        <dd><nobr>邮编：518057 </nobr></dd>
+                        <dd><nobr>电话：0755-86250470；0755-26656613</nobr></dd>
+                        <dd><nobr>传真：0755-86250420；QQ：2880708188</nobr></dd>
+                        <dd><nobr>邮箱：<a href="mailto:gao_becky@eshinecomm.com.cn">gao_becky@eshinecomm.com.cn</a></nobr></dd>
+                    </dl>
+                    <dl>
+                        <dd></dd>
+                    </dl>
+                    <dl>
+                        <dt>ShenZhen, China</dt>
+                        <dd><nobr>Post: 518057 </nobr></dd>
+                        <dd><nobr>Tel: 0086-755-26656695; 0086-755-26656655</nobr></dd>
+                        <dd><nobr>Fax: 0086-755-86250420</nobr></dd>
+                        <dd><nobr>Email: <a href="mailto:service@eshinecomm.com.cn">service@eshinecomm.com.cn</a></nobr></dd>
+                    </dl>
+                    <dl>
+                        <dd></dd>
+                    </dl>
+                    <dl>
+                        <dt>HongKong, China</dt>
+                        <dd><nobr>Add: 1/F., CMA Building,</nobr><br /> <nobr>64-66 Connaught Road Central</nobr></dd>
+                        <dd></dd>
+                        <dd><nobr>Tel: 00852-69529390</nobr></dd>
+                        <dd><nobr>Email: <a href="mailto:service@eshinecomm.com.cn">service@eshinecomm.com.cn</a></nobr></dd>
+                    </dl>
+                    <div class="online" style=" padding-left:20xp;">
+                        <ul>
+                            <li class="item1"><span class="icon-common icon-common-tel"></span>755-86250470</li>
+                            <li class="item2">您可以来电，周一至周日8:00-20:00 </li>
+                            <li class="item3 clearfix"><a class="btn btn-green" href="#"><span class="icon-common icon-common-face"></span>期待您与我们联系</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerbtm">
+            <div class="info">
+                <p>© <a href="./" target="_blank">深圳翼尚通信技术有限公司</a> 版权所有 2012 粤ICP备09145810号</p>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="./js/base.min.js"></script>
+
+</body>
+</html>

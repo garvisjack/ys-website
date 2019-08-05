@@ -1,0 +1,57 @@
+BODY {
+	FONT-SIZE: 12px; 
+	MARGIN: 0px ;
+	FONT-SIZE: 12px;
+	COLOR: #3D3D3D;
+}
+FORM {
+	MARGIN: 0px
+}
+DIV {
+	FONT-SIZE: 12px; 
+	FILTER: none;
+    VISIBILITY: visible! important; 
+    WORD-BREAK: break-all; 
+    ZOOM: 1! important; 
+    FONT-FAMILY: Arial; 
+    WORD-WRAP: break-word; 
+    moz-opacity: 1
+}
+TD {
+	FONT-SIZE: 12px; 
+	LINE-HEIGHT: 18px
+}
+A:link {
+	COLOR: #3D3D3D; FONT-FAMILY: "ËÎÌו"; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #3D3D3D; FONT-FAMILY: "ËÎÌו"; TEXT-DECORATION: none
+}
+A:active {
+	FONT-FAMILY: ËÎÌו; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff3333; TEXT-DECORATION: none
+}
+
+
+/* nomarl style */
+.specRemark{
+	FONT-SIZE: 12px; COLOR: #999999 ;
+}
+.specFont{
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #3D3D3D ;
+}
+a.spec:link{
+	FONT-SIZE: 12px; COLOR: #3D3D3D ;
+}
+a.spec:hover{
+	FONT-SIZE: 12px; COLOR: #FF0000 ;
+}
+a.data:link{
+	FONT-SIZE: 12px; COLOR: #3D3D3D ;
+}
+a.data:hover{
+	FONT-SIZE: 12px; COLOR: #FF0000 ;
+}
+

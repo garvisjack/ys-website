@@ -1,0 +1,1026 @@
+* {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+UL LI {
+	LIST-STYLE-TYPE: none
+}
+INPUT {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: middle; COLOR: #333; FONT-FAMILY: Arial,san-serif
+}
+SELECT {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: middle; COLOR: #333; FONT-FAMILY: Arial,san-serif
+}
+TEXTAREA {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: middle; COLOR: #333; FONT-FAMILY: Arial,san-serif
+}
+IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+A IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000
+}
+.sideColumnList DIV P {
+	OVERFLOW: hidden
+}
+.sideColumn DIV P {
+	OVERFLOW: hidden
+}
+.product P {
+	OVERFLOW: hidden
+}
+.column LI A {
+	OVERFLOW: hidden
+}
+.columnList LI A {
+	OVERFLOW: hidden
+}
+.clear {
+	CLEAR: both
+}
+.more {
+	PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+.more A {
+	COLOR: #a32912
+}
+.more A:hover {
+	COLOR: #a37912
+}
+#newsletter {
+	BACKGROUND: url(../images/tp_newsletter.gif) no-repeat; MARGIN: 0px 0px 1em; WIDTH: 157px; LINE-HEIGHT: 32px
+}
+#newsletter A {
+	DISPLAY: block; PADDING-LEFT: 50px
+}
+#rss {
+	MARGIN-LEFT: 11px; VERTICAL-ALIGN: middle
+}
+.column {
+	BACKGROUND: #f5f5f5; FLOAT: left; MARGIN-BOTTOM: 11px; OVERFLOW: hidden; BORDER-LEFT: #dbdbdb 1px solid
+}
+.column H2 {
+	PADDING-LEFT: 9px; BACKGROUND: #fff; LINE-HEIGHT: 24px
+}
+.column IMG {
+	PADDING-TOP: 1px
+}
+.column UL {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.column LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; BACKGROUND: url(../images/tp_column_li_bg.jpg) no-repeat 0px 5px; PADDING-BOTTOM: 0px; MARGIN: 11px 0px; LINE-HEIGHT: 14px; PADDING-TOP: 0px
+}
+.form {
+	BACKGROUND: url(../images/tp_technical_bg2.jpg) no-repeat left bottom
+}
+.formWrap {
+	BACKGROUND: url(../images/tp_technical_bg.jpg) no-repeat left top
+}
+.sideColumnList {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/tp_column_bg.jpg) no-repeat left bottom; PADDING-BOTTOM: 6px; MARGIN: 0px 0px 11px; WIDTH: 157px; PADDING-TOP: 0px
+}
+.sideColumn {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/tp_column_bg.jpg) no-repeat left bottom; PADDING-BOTTOM: 6px; MARGIN: 0px 0px 11px; WIDTH: 157px; PADDING-TOP: 0px
+}
+.sideColumnList H2 {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 9px; BACKGROUND: url(../images/tp_column_h2_bg.jpg) no-repeat left top; PADDING-BOTTOM: 0px; LINE-HEIGHT: 25px; PADDING-TOP: 0px
+}
+.sideColumn H2 {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 9px; BACKGROUND: url(../images/tp_column_h2_bg.jpg) no-repeat left top; PADDING-BOTTOM: 0px; LINE-HEIGHT: 25px; PADDING-TOP: 0px
+}
+.sideColumnList H2 {
+	BACKGROUND: url(../images/tp_columnList_h2_bg.jpg) no-repeat left top
+}
+.sideColumnList DIV {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.sideColumn DIV {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.sideColumnList UL LI {
+	PADDING-RIGHT: 11px; PADDING-LEFT: 16px; BACKGROUND: url(../images/tp_columnList_li_bg.gif) no-repeat 7px 5px; PADDING-BOTTOM: 0px; MARGIN: 8px 0px; PADDING-TOP: 0px
+}
+.sideColumnList UL LI SPAN {
+	COLOR: #333; LINE-HEIGHT: 11px
+}
+.sideColumnList UL LI SPAN.time {
+	COLOR: #999
+}
+.picList {
+	MARGIN-BOTTOM: 32px
+}
+.picList .img {
+	PADDING-RIGHT: 9px; FLOAT: left
+}
+.picList .imgList1 {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 6px; BACKGROUND: url(../images/solutions_listBg.gif) no-repeat left top; FLOAT: left; WIDTH: 158px; LINE-HEIGHT: 78px; PADDING-TOP: 6px; HEIGHT: 78px
+}
+.picList DT {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FLOAT: right; MARGIN-BOTTOM: 12px; COLOR: #000
+}
+.picList DT A {
+	FONT-SIZE: 12px; COLOR: #000
+}
+.picList DT A:hover {
+	FONT-SIZE: 12px; COLOR: #cc3333
+}
+.picList .title {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN-BOTTOM: 12px; COLOR: #000
+}
+.picList .intro {
+	MARGIN: 0px 0px 0px 106px; COLOR: #535353
+}
+.picList TD {
+	VERTICAL-ALIGN: top
+}
+.c_printUp {
+	COLOR: #666666; PADDING-TOP: 20px; TEXT-ALIGN: right
+}
+.c_printUp IMG {
+	MARGIN: 0pt 5px 0pt 0pt
+}
+.c_printDown IMG {
+	MARGIN: 0pt 5px 0pt 0pt
+}
+.c_printDown A {
+	MARGIN: 0px 6px; COLOR: #666666
+}
+.c_printUp A {
+	MARGIN: 0px 6px; COLOR: #666666
+}
+.article {
+	FONT-SIZE: 12px; MARGIN-BOTTOM: 60px; COLOR: #000; LINE-HEIGHT: 20px; FONT-FAMILY: Verdana,sans-serif
+}
+.article H1 {
+	FONT-SIZE: 14px; MARGIN: 14px 0px; COLOR: #000; TEXT-ALIGN: center
+}
+.article H2 {
+	PADDING-RIGHT: 24px; PADDING-LEFT: 24px; FONT-WEIGHT: normal; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 12px 0px; COLOR: #000; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+.article P {
+	MARGIN: 20px 0px
+}
+.article P STRONG {
+	FONT-WEIGHT: normal; COLOR: #000
+}
+.NextPre {
+	MARGIN: 20px 0px; COLOR: #333; LINE-HEIGHT: 20px; TEXT-ALIGN: left
+}
+.NextPre A {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; COLOR: #aa0000; PADDING-TOP: 0px
+}
+.NextPre A:hover {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; COLOR: #aa0000; PADDING-TOP: 0px
+}
+.video {
+	FLOAT: left; MARGIN: 0px 12px 0px 0px
+}
+.related {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 44px; PADDING-TOP: 0px
+}
+.related H3 {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 11px; PADDING-BOTTOM: 3px; COLOR: #666; PADDING-TOP: 3px; BORDER-BOTTOM: #d7d7d7 1px solid
+}
+.related UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 14px; BACKGROUND: url(../images/tp_related_news_li_bg.jpg) no-repeat 4px 5px; PADDING-BOTTOM: 0px; MARGIN: 11px 0px; PADDING-TOP: 0px
+}
+INPUT#Search {
+	BORDER-RIGHT: #cacaca 1px solid; BORDER-TOP: #cacaca 1px solid; BORDER-LEFT: #cacaca 1px solid; BORDER-BOTTOM: #cacaca 1px solid; HEIGHT: 15px
+}
+INPUT#goSearch {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#container {
+	CLEAR: both; MARGIN-TOP: 11px; FLOAT: left; TEXT-ALIGN: left
+}
+#sidebar {
+	FLOAT: left; WIDTH: 156px
+}
+#sidebar H2 {
+	PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000; LINE-HEIGHT: 25px
+}
+#submenu4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/tp_column_bg.jpg) no-repeat left bottom; PADDING-BOTTOM: 6px; MARGIN: 0px 0px 11px; WIDTH: 157px; COLOR: #666666; PADDING-TOP: 0px
+}
+#submenu4 H2 {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 20px; BACKGROUND: url(../images/tp_column_h2_bg.jpg) no-repeat left top; PADDING-BOTTOM: 0px; COLOR: #484848; LINE-HEIGHT: 25px; PADDING-TOP: 0px; BORDER-BOTTOM: #ccc 1px solid
+}
+#submenu4 DIV {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#submenu4 UL LI {
+	
+}
+#submenu4 UL LI SPAN {
+	COLOR: #333; LINE-HEIGHT: 11px
+}
+#submenu4 LI A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 25px; BACKGROUND: url(../images/tp_left_nav_a.gif) no-repeat 12px center; PADDING-BOTTOM: 0px; COLOR: #333; LINE-HEIGHT: 22px; PADDING-TOP: 0px; HEIGHT: 22px
+}
+#submenu4 LI A:hover {
+	COLOR: #993300
+}
+#submenu3 {
+	BACKGROUND: url(../images/tp_left_nav1.gif) repeat-y left bottom; MARGIN-BOTTOM: 6px
+}
+#submenu2 {
+	BACKGROUND: url(../images/tp_left_nav2.gif) no-repeat left bottom; PADDING-BOTTOM: 6px
+}
+#submenu {
+	BACKGROUND: url(../images/tp_left_nav2.gif) no-repeat left bottom; PADDING-BOTTOM: 6px
+}
+#submenu3 H2 {
+	PADDING-LEFT: 24px; FONT-SIZE: 11px; BACKGROUND: url(../images/tp_left_nav.gif) no-repeat left top; COLOR: #d43718
+}
+#submenu2 H2 {
+	PADDING-LEFT: 24px; FONT-SIZE: 12px; BACKGROUND: url(../images/tp_left_nav.gif) no-repeat left top; COLOR: #424242
+}
+#submenu H2 {
+	PADDING-LEFT: 24px; FONT-SIZE: 12px; BACKGROUND: url(../images/tp_left_nav.gif) no-repeat left top; COLOR: #424242
+}
+#submenu2 LI {
+	VERTICAL-ALIGN: bottom; ZOOM: 1
+}
+#submenu3 LI {
+	VERTICAL-ALIGN: bottom; ZOOM: 1
+}
+#submenu LI {
+	VERTICAL-ALIGN: bottom; ZOOM: 1
+}
+#submenu2 LI A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 24px; BACKGROUND: url(../images/tp_left_nav_a.gif) no-repeat 12px center; PADDING-BOTTOM: 4px; COLOR: #333; PADDING-TOP: 4px; BORDER-BOTTOM: #ededed 1px solid
+}
+#submenu3 LI A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 24px; BACKGROUND: url(../images/tp_left_nav_a.gif) no-repeat 12px center; PADDING-BOTTOM: 4px; COLOR: #333; PADDING-TOP: 4px; BORDER-BOTTOM: #ededed 1px solid
+}
+#submenu LI A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 24px; BACKGROUND: url(../images/tp_left_nav_a.gif) no-repeat 12px center; PADDING-BOTTOM: 4px; COLOR: #333; PADDING-TOP: 4px; BORDER-BOTTOM: #ededed 1px solid
+}
+#submenu2 LI A:hover {
+	COLOR: #990000
+}
+#submenu3 LI A:hover {
+	COLOR: #990000
+}
+#submenu LI A:hover {
+	COLOR: #990000
+}
+#sidebar .current {
+	BACKGROUND: #f0f0f0; COLOR: #000
+}
+#sidebar .current A {
+	COLOR: #000
+}
+#sidebar .current A:hover {
+	COLOR: #990000
+}
+#sidebar .current UL {
+	BORDER-RIGHT: #ededed 1px solid; BORDER-TOP: #ededed 1px; BACKGROUND: #fff; BORDER-LEFT: #ededed 1px solid; BORDER-BOTTOM: #ededed 1px
+}
+#sidebar .current UL A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 36px; BACKGROUND: url(../images/tp_dot.gif) no-repeat 28px 10px; PADDING-BOTTOM: 4px; COLOR: #333; PADDING-TOP: 4px
+}
+#sidebar #submenu .current UL A {
+	BACKGROUND: #fff
+}
+#sidebar .current UL A:hover {
+	COLOR: #a32912
+}
+#sidebar .current UL UL {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#sidebar .current UL UL A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 48px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 4px; COLOR: #333; PADDING-TOP: 4px
+}
+#sidebar .currnet UL UL A:hover {
+	COLOR: #a32912
+}
+#sidebar .current .current A {
+	COLOR: #000; BACKGROUND-COLOR: #f9f9f9
+}
+#sidebar .current .current A:hover {
+	COLOR: #990000
+}
+#sidebar .current .current .current A {
+	BACKGROUND: #fff; COLOR: #a32912
+}
+#sidebar .current .current .current A:hover {
+	BACKGROUND: #fff; COLOR: #990000
+}
+#sidebar .current .current LI A {
+	BACKGROUND: #fff; COLOR: #333
+}
+#sidebar .current .current LI A:hover {
+	BACKGROUND: #fff; COLOR: #990000
+}
+#mainbody {
+	FLOAT: left; PADDING-BOTTOM: 20px; MARGIN-LEFT: 11px; OVERFLOW: hidden; WIDTH: 611px; COLOR: #333
+}
+#mainbody .location {
+	PADDING-LEFT: 11px; BACKGROUND: url(../images/tp_location_bg.gif) no-repeat left bottom; MARGIN-BOTTOM: 11px; WIDTH: 600px; COLOR: #000000; LINE-HEIGHT: 19px
+}
+#mainbody .location A {
+	COLOR: #797979
+}
+#mainbody .location A:hover {
+	COLOR: #cc0000
+}
+#mainbody .location SPAN {
+	DISPLAY: block; FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #a32912
+}
+#mainbody #banner {
+	MARGIN: 11px 0px
+}
+.main {
+	FONT-SIZE: 12px; FLOAT: left; MARGIN-BOTTOM: 60px; WIDTH: 443px; COLOR: #000; LINE-HEIGHT: 20px; MARGIN-RIGHT: 11px
+}
+.side {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 157px
+}
+#footer {
+	CLEAR: both; PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: url(../images/footer_bg.gif) no-repeat left top; PADDING-BOTTOM: 0px; COLOR: #999999; LINE-HEIGHT: 21px; PADDING-TOP: 15px; HEIGHT: 50px
+}
+#footer P.links {
+	FLOAT: left; COLOR: #888
+}
+#footer P.copyright {
+	FLOAT: right
+}
+.new {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; BACKGROUND: url(../images/tp_new_bg.jpg) no-repeat; FLOAT: left; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 399px; PADDING-TOP: 0px; HEIGHT: 144px
+}
+.new H2 {
+	BACKGROUND: url(../images/tp_new_h2_bg.jpg) no-repeat left bottom; MARGIN: 11px 0px 5px; LINE-HEIGHT: 22px
+}
+.productList {
+	BACKGROUND: url(../images/tp_productList_bg.gif) #eee no-repeat left bottom; MARGIN-BOTTOM: 22px
+}
+.productList TD:hover {
+	BACKGROUND-COLOR: #f7f7f7
+}
+.productList TD.hover {
+	BACKGROUND-COLOR: #f7f7f7
+}
+.productList TD {
+	BORDER-RIGHT: #fff 1px solid
+}
+.productList TH {
+	BORDER-RIGHT: #fff 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: url(../images/tp_productindexbg.gif) no-repeat left 50%; WIDTH: 155px; LINE-HEIGHT: 20px; HEIGHT: 20px; TEXT-ALIGN: center
+}
+.productList TH A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.productList TH A:hover {
+	COLOR: #990000; TEXT-DECORATION: underline
+}
+.productList TD:unknown {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.productList UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 16px; PADDING-BOTTOM: 11px; LINE-HEIGHT: 20px; PADDING-TOP: 11px
+}
+.productList UL A:hover {
+	TEXT-DECORATION: underline
+}
+#sidebar .search_bar {
+	MARGIN: 50px 0px 11px
+}
+.picShow {
+	PADDING-LEFT: 2px; MARGIN: 11px 0px 40px
+}
+.search_bar SELECT {
+	MARGIN: 0px 0px 11px; WIDTH: 156px
+}
+#hotClick {
+	MARGIN: 50px 0px 0px
+}
+#hotClick H2 {
+	BORDER-BOTTOM: #e0e0e0 1px solid
+}
+#hotClick SPAN {
+	FONT-SIZE: 12px; COLOR: #535353
+}
+#hotClick A {
+	FONT-SIZE: 12px; COLOR: #535353
+}
+#hotClick .hotClick_list {
+	PADDING-RIGHT: 23px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; OVERFLOW: hidden; WIDTH: 130px; LINE-HEIGHT: 24px; PADDING-TOP: 5px
+}
+#hotClick .hotClick_list A:hover {
+	COLOR: #900! important; TEXT-DECORATION: underline
+}
+.news {
+	PADDING-RIGHT: 22px
+}
+.related_products H2 {
+	MARGIN-BOTTOM: 11px; COLOR: #444; LINE-HEIGHT: 16px; BORDER-BOTTOM: #e0e0e0 1px solid
+}
+.community H2 {
+	MARGIN-BOTTOM: 11px; COLOR: #444; LINE-HEIGHT: 16px; BORDER-BOTTOM: #e0e0e0 1px solid
+}
+.service H2 {
+	MARGIN-BOTTOM: 11px; COLOR: #444; LINE-HEIGHT: 16px; BORDER-BOTTOM: #e0e0e0 1px solid
+}
+.service2 H2 {
+	MARGIN-BOTTOM: 11px; COLOR: #444; LINE-HEIGHT: 16px; BORDER-BOTTOM: #e0e0e0 1px solid
+}
+.service3 H2 {
+	MARGIN-BOTTOM: 11px; COLOR: #444; LINE-HEIGHT: 16px; BORDER-BOTTOM: #e0e0e0 1px solid
+}
+.news H2 {
+	MARGIN-BOTTOM: 11px; COLOR: #444; LINE-HEIGHT: 16px; BORDER-BOTTOM: #e0e0e0 1px solid
+}
+.news .img {
+	FLOAT: left
+}
+.news .img A {
+	DISPLAY: block; MARGIN-BOTTOM: 11px; COLOR: #ca0000
+}
+.news UL {
+	MARGIN: 0px 0px 0px 106px; LINE-HEIGHT: 14px
+}
+.news UL LI {
+	PADDING-LEFT: 12px; BACKGROUND: url(../images/tp_columnList_li_bg.gif) no-repeat 5px 5px; MARGIN-BOTTOM: 14px
+}
+.news UL LI SPAN {
+	DISPLAY: block; COLOR: #7c7c7c
+}
+.service {
+	WIDTH: 162px
+}
+.service2 UL {
+	MARGIN-LEFT: 12px; LINE-HEIGHT: 30px
+}
+.service3 UL {
+	MARGIN-LEFT: 12px; LINE-HEIGHT: 30px
+}
+.service UL {
+	MARGIN-LEFT: 12px; LINE-HEIGHT: 30px
+}
+.service3 UL {
+	LINE-HEIGHT: 11px
+}
+.service2 UL {
+	LINE-HEIGHT: 11px
+}
+.service3 UL LI {
+	BACKGROUND-POSITION: left top; PADDING-LEFT: 40px; COLOR: #787878
+}
+.service2 UL LI {
+	BACKGROUND-POSITION: left top; PADDING-LEFT: 40px; COLOR: #787878
+}
+.service UL LI {
+	BACKGROUND-POSITION: left top; PADDING-LEFT: 40px; COLOR: #787878
+}
+.service3 UL LI {
+	MARGIN-TOP: 16px; OVERFLOW: hidden
+}
+.service2 UL LI {
+	MARGIN-TOP: 30px; OVERFLOW: hidden
+}
+.service3 A {
+	FONT-WEIGHT: normal; COLOR: #000000
+}
+.service2 A {
+	FONT-WEIGHT: normal; COLOR: #000000
+}
+LI#feedback {
+	BACKGROUND: url(../images/tp_Products__service_04.jpg) no-repeat left top
+}
+LI#download {
+	BACKGROUND: url(../images/tp_Products__service_01.jpg) no-repeat left top
+}
+LI#faq {
+	BACKGROUND: url(../images/tp_Products__service_02.jpg) no-repeat left top
+}
+LI#network {
+	BACKGROUND: url(../images/tp_Products__service_03.jpg) no-repeat left top
+}
+.productList2 {
+	MARGIN: 11px 10px 22px
+}
+.productList2 H2 {
+	FONT-SIZE: 18px; MARGIN-BOTTOM: 22px; COLOR: #2f2f2f; LINE-HEIGHT: 27px; BORDER-BOTTOM: #e6e6e6 1px solid
+}
+.productList2 H2 A {
+	DISPLAY: block; COLOR: #000000
+}
+.productList2 H2 A:hover {
+	DISPLAY: block; COLOR: #990000
+}
+.productList2 .product IMG {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: url(../images/tp_Hanset_UMTS_img_bg.jpg) no-repeat left top; PADDING-BOTTOM: 10px; WIDTH: 100px; PADDING-TOP: 10px; HEIGHT: 100px
+}
+.productList2 .product .imgIcon {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/none.jpg); PADDING-BOTTOM: 0px; WIDTH: 13px; PADDING-TOP: 5px; HEIGHT: 12px
+}
+.productList2 .product {
+	FONT-SIZE: 10px; FLOAT: left; MARGIN-BOTTOM: 20px; WIDTH: 120px; COLOR: #333; LINE-HEIGHT: 11px; MARGIN-RIGHT: 33px
+}
+.productList2 .product_right {
+	MARGIN-RIGHT: 0px
+}
+.productList2 H3 {
+	TEXT-ALIGN: center
+}
+.productList2 .product2 IMG {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 10px; WIDTH: 100px; PADDING-TOP: 10px; HEIGHT: 100px
+}
+.productList2 .product2 .imgIcon {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/none.jpg); PADDING-BOTTOM: 0px; WIDTH: 13px; PADDING-TOP: 5px; HEIGHT: 12px
+}
+.productList2 .product2 {
+	BORDER-RIGHT: #fff 1px solid; BORDER-TOP: #fff 1px solid; DISPLAY: block; FONT-SIZE: 10px; FLOAT: left; MARGIN-BOTTOM: 20px; BORDER-LEFT: #fff 1px solid; WIDTH: 130px; COLOR: #333; LINE-HEIGHT: 11px; MARGIN-RIGHT: 20px; BORDER-BOTTOM: #fff 1px solid; HEIGHT: 190px
+}
+.productList2 .product2:hover {
+	BORDER-RIGHT: #cc7f7f 1px solid; BORDER-TOP: #cc7f7f 1px solid; BORDER-LEFT: #cc7f7f 1px solid; WIDTH: 130px; BORDER-BOTTOM: #cc7f7f 1px solid; HEIGHT: 190px
+}
+#product_listid {
+	PADDING-RIGHT: 14px; PADDING-LEFT: 14px; BACKGROUND: #f1f1f1; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.product_total {
+	FONT-WEIGHT: bold; FLOAT: left; MARGIN-BOTTOM: 5px; PADDING-BOTTOM: 5px
+}
+.product_order {
+	FLOAT: right
+}
+.product_listtitle {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: url(../images/product_listbg2.gif) no-repeat left top; FLOAT: left; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 30px
+}
+.product_listtitle H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; WIDTH: 500px; COLOR: #222222; LINE-HEIGHT: 28px
+}
+.product_listtitle .more {
+	FONT-SIZE: 11px; FLOAT: left; WIDTH: 40px; PADDING-TOP: 10px; TEXT-ALIGN: right
+}
+.product H3 {
+	FONT-SIZE: 12px; COLOR: #4c4c4c; LINE-HEIGHT: 18px
+}
+.product H3 A {
+	FONT-SIZE: 12px; COLOR: #4c4c4c; LINE-HEIGHT: 18px
+}
+.product H3 A {
+	TEXT-DECORATION: underline
+}
+.product H3 A:hover {
+	FONT-SIZE: 12px; COLOR: #ca0000
+}
+.product H3 {
+	PADDING-RIGHT: 5px; MARGIN-TOP: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.product P {
+	PADDING-RIGHT: 5px; MARGIN-TOP: 0px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; OVERFLOW: hidden; WIDTH: 110px; LINE-HEIGHT: 15px; PADDING-TOP: 5px; HEIGHT: 25px; TEXT-OVERFLOW: ellipsis; TEXT-ALIGN: center
+}
+.related_products {
+	DISPLAY: inline; FLOAT: left; WIDTH: 186px; COLOR: #333; LINE-HEIGHT: 16px; MARGIN-RIGHT: 24px
+}
+.community {
+	DISPLAY: inline; FLOAT: left; WIDTH: 186px; COLOR: #333; LINE-HEIGHT: 16px; MARGIN-RIGHT: 24px
+}
+.related_products .img {
+	FLOAT: left
+}
+.related_products P {
+	MARGIN: 5px 0px
+}
+.community P {
+	MARGIN: 5px 0px
+}
+.related_products P STRONG {
+	DISPLAY: block
+}
+.community H2 {
+	MARGIN: 0px
+}
+.specifications {
+	MARGIN: 11px 11px 0px 0px
+}
+.specifications H2 {
+	BORDER-BOTTOM: #bcbcbc 1px solid
+}
+.description {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #dbdbdb 1px solid
+}
+.description DD {
+	PADDING-RIGHT: 16px; PADDING-LEFT: 16px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.description UL {
+	MARGIN-BOTTOM: 11px
+}
+.description UL LI {
+	PADDING-RIGHT: 11px; PADDING-LEFT: 11px; BACKGROUND: url(../images/tp_columnList_li_bg.gif) no-repeat 0px 5px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.description DT {
+	PADDING-LEFT: 16px; FONT-SIZE: 11px; BACKGROUND: url(../images/btn_Hanset_products_h3_bg.jpg) no-repeat left center; COLOR: #a32500; LINE-HEIGHT: 27px
+}
+.description H4 {
+	FONT-SIZE: 11px; COLOR: #6d6d6d; LINE-HEIGHT: 22px
+}
+.btn {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; LINE-HEIGHT: 20px; PADDING-TOP: 0px; BORDER-BOTTOM: #dbdbdb 1px solid
+}
+.btn A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 16px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN-RIGHT: 50px; PADDING-TOP: 0px
+}
+.btn A:hover {
+	FONT-SIZE: 12px
+}
+.btn #expand {
+	BACKGROUND: url(../images/btn_Hanset_products_expand.jpg) no-repeat left center
+}
+.btn #collapse {
+	BACKGROUND: url(../images/btn_products_collapse.jpg) no-repeat left center
+}
+.btn #expand1 {
+	BACKGROUND: url(../images/btn_Hanset_products_expand.jpg) no-repeat left center
+}
+.btn #collapse1 {
+	BACKGROUND: url(../images/btn_products_collapse.jpg) no-repeat left center
+}
+.rolePage #mainbody {
+	MARGIN: 0px; WIDTH: 778px
+}
+.rolePage #mainbody .main {
+	WIDTH: 610px
+}
+.rolePage #mainbody .location {
+	BACKGROUND: url(../images/tp_role_location_bg.jpg) no-repeat left bottom; PADDING-BOTTOM: 5px; WIDTH: 778px; COLOR: #000000
+}
+.customer_need {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; BACKGROUND: url(../images/tp_customer_need_bg.jpg) #e9e9e9 no-repeat left top; FLOAT: left; PADDING-BOTTOM: 12px; MARGIN: 0px 0px 12px; WIDTH: 580px; PADDING-TOP: 12px
+}
+.customer_need H2 {
+	FONT-SIZE: 14px; LINE-HEIGHT: 22px
+}
+.customer_need .need_content {
+	BACKGROUND: #fff; FLOAT: left
+}
+.customer_need .need_content DIV {
+	DISPLAY: inline; FLOAT: left; MARGIN: 11px; WIDTH: 123px
+}
+.customer_need .need_content H3 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #575757; BORDER-BOTTOM: #dbdbdb 1px solid
+}
+.customer_need .need_content UL LI {
+	PADDING-LEFT: 11px; BACKGROUND: url(../images/tp_columnList_li_bg.gif) no-repeat 0px 5px; MARGIN: 11px 0px; LINE-HEIGHT: 11px
+}
+.customer_need .need_content UL LI SPAN {
+	COLOR: #333; LINE-HEIGHT: 11px
+}
+.customer_need .need_content UL LI SPAN.time {
+	COLOR: #999
+}
+.consumer {
+	MARGIN-TOP: 18px; FLOAT: left
+}
+.consumer UL {
+	LINE-HEIGHT: 19px
+}
+.consumer UL LI {
+	PADDING-LEFT: 15px; BACKGROUND: url(../images/tp_Consumer_ico.gif) no-repeat 5px center; FLOAT: left; WIDTH: 130px
+}
+.consumer UL LI A {
+	
+}
+.consumer UL LI A:hover {
+	
+}
+.news1 {
+	MARGIN-BOTTOM: 22px
+}
+.news1 H1 {
+	FONT-SIZE: 15px; MARGIN: 5px 0px; COLOR: #aa0000
+}
+.news1 H1 A {
+	FONT-SIZE: 15px; COLOR: #aa0000
+}
+.news1 H1 A:hover {
+	FONT-SIZE: 15px
+}
+.news1 P {
+	FONT-SIZE: 12px; MARGIN: 5px 0px
+}
+.news1 .time {
+	MARGIN: 5px 0px; COLOR: #999
+}
+.picList2 .time {
+	MARGIN: 5px 0px; COLOR: #999
+}
+.picList2 {
+	DISPLAY: inline; FLOAT: left; MARGIN: 11px 0px; LINE-HEIGHT: 16px
+}
+.picList2 DT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 4px; WIDTH: 300px; PADDING-TOP: 0px
+}
+.picList2 DT A {
+	FONT-SIZE: 12px
+}
+.picList2 DT A:hover {
+	FONT-SIZE: 12px
+}
+.picList2 .img {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.picList2 .img IMG {
+	DISPLAY: block; MARGIN: 0px 9px 0px 0px
+}
+.picList2 .intro {
+	MARGIN: 0px 0px 0px 140px; LINE-HEIGHT: 14px
+}
+* HTML .picList2 .intro {
+	FLOAT: left; MARGIN: 0px
+}
+.picList2 P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.page {
+	COLOR: #9f9f9f; TEXT-ALIGN: right
+}
+.page A#pre {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 9px; BACKGROUND: url(../images/tp_page_pre.jpg) no-repeat left center; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.page A#next {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 0px; BACKGROUND: url(../images/tp_page_next.jpg) no-repeat right center; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.page INPUT {
+	MARGIN: 0px 0px 0px 6px; WIDTH: 24px
+}
+.eventList {
+	PADDING-RIGHT: 24px; PADDING-LEFT: 24px; PADDING-BOTTOM: 46px; OVERFLOW: hidden; PADDING-TOP: 16px; HEIGHT: 280px
+}
+.event {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 26px 0px 0px; OVERFLOW: hidden; WIDTH: 205px; PADDING-TOP: 0px; HEIGHT: 266px
+}
+.event H2 {
+	COLOR: #8c6848
+}
+.event H2 A {
+	FONT-SIZE: 12px; COLOR: #8c6848
+}
+.event H2 A:hover {
+	FONT-SIZE: 12px; COLOR: #8c6848
+}
+.event .time {
+	MARGIN: 6px 0px; COLOR: #ff9000
+}
+.event .eventContent {
+	LINE-HEIGHT: 14px; PADDING-TOP: 6px
+}
+.newsSearch {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: url(../images/tp_new_list_form_03.jpg) no-repeat left top; PADDING-BOTTOM: 6px; PADDING-TOP: 6px; HEIGHT: 128px
+}
+.newsSearch INPUT {
+	VERTICAL-ALIGN: middle
+}
+.newsSearch IMG {
+	VERTICAL-ALIGN: middle
+}
+.newsSearch TABLE {
+	COLOR: #333; LINE-HEIGHT: 28px
+}
+.newsSearch TABLE TH {
+	COLOR: #333
+}
+.newsSearch TABLE TD {
+	COLOR: #333
+}
+.login DIV {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 6px; LINE-HEIGHT: 18px; PADDING-TOP: 6px
+}
+.login INPUT.inputTxt {
+	WIDTH: 100%
+}
+.bulletin {
+	BACKGROUND: url(../images/tp_bulletin_bg2.jpg) no-repeat left bottom; MARGIN: 0px 0px 11px
+}
+.bulletinWrap {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; BACKGROUND: url(../images/tp_bulletin_bg.jpg) no-repeat left top; PADDING-BOTTOM: 6px; PADDING-TOP: 6px
+}
+.bulletin H2 {
+	BACKGROUND: url(../images/tp_bulletins_h2_bg.jpg) no-repeat left bottom; PADDING-BOTTOM: 6px
+}
+.bulletin TABLE TD {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; LINE-HEIGHT: 14px; PADDING-TOP: 3px
+}
+.bulletin TABLE .time {
+	WIDTH: 80px; COLOR: #000
+}
+.serviceList {
+	FLOAT: left; MARGIN: 11px 0px
+}
+.serviceList .picList {
+	DISPLAY: inline; FLOAT: left; MARGIN: 11px 22px 33px 0px; OVERFLOW: hidden; WIDTH: 190px
+}
+.serviceList .picList DT {
+	MARGIN: 0px; WIDTH: 115px; COLOR: #3a3a3a
+}
+* HTML .serviceList .picList DT {
+	WIDTH: 122px
+}
+.serviceList .picList DD.img {
+	WIDTH: 60px
+}
+.serviceList .picList DD.intro {
+	MARGIN-LEFT: 75px
+}
+* HTML .serviceList .picList DD.intro {
+	FLOAT: left; MARGIN-LEFT: 0px
+}
+.white {
+	COLOR: #ffffff
+}
+.img {
+	VERTICAL-ALIGN: middle
+}
+.point {
+	MARGIN: 3px 5px 2px 10px
+}
+#download TD {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 12px; BORDER-BOTTOM: #e0e0e0 1px solid; FONT-FAMILY: Arial
+}
+#download TH {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND: url(../images/tp_download_bg.gif) no-repeat left top; COLOR: #000; FONT-FAMILY: Arial
+}
+.downloadOutDiv {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-WEIGHT: normal; BACKGROUND: url(../images/tp_download_bg.gif) no-repeat left top
+}
+.serviceSearch {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 11px; MARGIN: 11px; PADDING-TOP: 11px
+}
+.serviceSearch INPUT {
+	VERTICAL-ALIGN: middle
+}
+.serviceSearch IMG {
+	VERTICAL-ALIGN: middle
+}
+.serviceSearch TABLE {
+	COLOR: #333; LINE-HEIGHT: 28px
+}
+.serviceSearch TABLE TH {
+	COLOR: #333
+}
+.serviceSearch TABLE TD {
+	COLOR: #333
+}
+.a-z {
+	LINE-HEIGHT: 22px; TEXT-ALIGN: right
+}
+.a-z A {
+	MARGIN: 0px 4px; COLOR: #a32912; TEXT-DECORATION: underline
+}
+.countries TABLE CAPTION {
+	MARGIN-TOP: 11px; FONT-WEIGHT: bold; FONT-SIZE: 12px; LINE-HEIGHT: 44px; TEXT-ALIGN: left
+}
+.countries TABLE IMG {
+	MARGIN: 0px auto; WIDTH: 24px; HEIGHT: 16px
+}
+.outer {
+	BACKGROUND: url(../images/tp_outter_bg.jpg) no-repeat left bottom
+}
+.list {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; BACKGROUND: url(../images/tp_list_bg.jpg) no-repeat left top; PADDING-BOTTOM: 11px; PADDING-TOP: 11px
+}
+.listDetail {
+	MARGIN: 11px 0px 33px
+}
+.list H2 {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; BACKGROUND: #eee; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 90px; PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+.listDetail DIV {
+	MARGIN-LEFT: 96px; BORDER-LEFT: #f1f1f1 1px solid
+}
+.listDetail TABLE TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px
+}
+.top {
+	PADDING-RIGHT: 50px; PADDING-LEFT: 50px; PADDING-BOTTOM: 0px; MARGIN: 11px 0px; PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+.STYLE3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px! important; COLOR: #990000
+}
+.related_services {
+	MARGIN: 10px 0px 0px
+}
+.related_services A {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.related_services A:hover {
+	COLOR: #a00; TEXT-DECORATION: underline
+}
+.productShow .blk_29 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; OVERFLOW: hidden; PADDING-TOP: 5px; ZOOM: 1; POSITION: relative
+}
+.sideColumnList .blk_29 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; OVERFLOW: hidden; PADDING-TOP: 5px; ZOOM: 1; POSITION: relative
+}
+.blk_29 .LeftBotton {
+	WIDTH: 11px; CURSOR: pointer; POSITION: absolute; TOP: 10px; HEIGHT: 90px
+}
+.blk_29 .RightBotton {
+	WIDTH: 11px; CURSOR: pointer; POSITION: absolute; TOP: 10px; HEIGHT: 90px
+}
+.blk_29 .LeftBotton {
+	BACKGROUND: url(../images/tp_Products_show_leftBtn.gif) no-repeat left center; LEFT: 10px; FLOAT: left
+}
+.blk_29 .RightBotton {
+	RIGHT: 6px; BACKGROUND: url(../images/tp_Products_show_rightBtn.gif) no-repeat left center; FLOAT: right
+}
+.productShow .blk_29 .Cont {
+	MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 141px
+}
+.blk_29 .Cont {
+	MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 141px
+}
+.blk_29 .box {
+	FLOAT: left; MARGIN: 0px auto; WIDTH: 141px; TEXT-ALIGN: center
+}
+.blk_29 .box IMG {
+	DISPLAY: block; BACKGROUND: #fff; MARGIN: 0px auto; WIDTH: 120px; HEIGHT: 120px
+}
+.blk_29 .box A:hover IMG {
+	WIDTH: 120px; HEIGHT: 120px
+}
+.blk_29 .box H3 {
+	FONT-SIZE: 11px; COLOR: #333
+}
+.blk_29 .box P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 14px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+.sideColumnList .rollphotos {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.sideColumnList .body {
+	MARGIN-LEFT: 10px
+}
+.product_tab {
+	MARGIN-BOTTOM: 28px; WIDTH: 611px
+}
+.product_tablist2 {
+	BACKGROUND: url(../images/product_tabline.gif) repeat-x left top; OVERFLOW: hidden; WIDTH: 610px; CURSOR: pointer; HEIGHT: 31px
+}
+.product_tablist2 UL {
+	LINE-HEIGHT: 31px
+}
+.product_tablist2 UL LI {
+	FLOAT: left; TEXT-ALIGN: center
+}
+.product_tabdetail {
+	BORDER-RIGHT: #d5d5d5 1px solid; PADDING-RIGHT: 15px; PADDING-LEFT: 15px; FONT-SIZE: 14px; PADDING-BOTTOM: 15px; BORDER-LEFT: #d5d5d5 1px solid; PADDING-TOP: 15px; BORDER-BOTTOM: #d5d5d5 1px solid
+}
+.videotab_detail {
+	BORDER-RIGHT: #d5d5d5 1px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 20px; MARGIN: 0px; BORDER-LEFT: #d5d5d5 1px solid; PADDING-TOP: 20px; BORDER-BOTTOM: #d5d5d5 1px solid; ZOOM: 1
+}
+.download_line {
+	MARGIN: 0px; WIDTH: 120px; BORDER-BOTTOM: #ccc 1px solid; TEXT-ALIGN: center
+}
+.date {
+	FONT-SIZE: 10px; COLOR: #999
+}
+.multimedia_red {
+	COLOR: #990000
+}
+.multimedia_red_wallpaper {
+	FONT-SIZE: 10px; COLOR: #990000
+}
+.flv {
+	MARGIN-TOP: 0px; FLOAT: left; MARGIN-LEFT: 5px; WIDTH: 288px; MARGIN-RIGHT: 15px; HEIGHT: 268px; TEXT-ALIGN: left
+}
+.ad {
+	FLOAT: left; MARGIN: 0px; WIDTH: 280px; PADDING-TOP: 10px
+}
+#contain_de {
+	MARGIN: 10px auto 0px; WIDTH: 780px
+}
+#contain_de H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; PADDING-BOTTOM: 5px; COLOR: #666! important; BORDER-BOTTOM: #aaaa99 1px solid; FONT-FAMILY: Arial
+}
+.select_product {
+	FONT-SIZE: 11px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px
+}
+.select_product TABLE {
+	BORDER-RIGHT: #acacac 1px solid; BORDER-TOP: #acacac 1px solid; MARGIN-TOP: 15px; FONT-SIZE: 11px; BORDER-LEFT: #acacac 1px solid; BORDER-BOTTOM: #acacac 1px solid; BORDER-COLLAPSE: collapse
+}
+.select_product TABLE TH {
+	BORDER-RIGHT: #acacac 1px solid; BORDER-TOP: #acacac 1px solid; BACKGROUND: #f7f7f7; BORDER-LEFT: #acacac 1px solid; LINE-HEIGHT: 24px; BORDER-BOTTOM: #acacac 1px solid; BORDER-COLLAPSE: collapse
+}
+.select_product TABLE TD {
+	BORDER-RIGHT: #acacac 1px solid; PADDING-RIGHT: 20px; BORDER-TOP: #acacac 1px solid; PADDING-LEFT: 20px; BORDER-LEFT: #acacac 1px solid; LINE-HEIGHT: 24px; BORDER-BOTTOM: #acacac 1px solid; BORDER-COLLAPSE: collapse
+}
+.service_index {
+	PADDING-RIGHT: 10px; BACKGROUND: url(../images/tp_dot_line.jpg) repeat-x left bottom; PADDING-BOTTOM: 15px; MARGIN: 11px 0px
+}
+.software_underline {
+	COLOR: #990000; TEXT-DECORATION: underline
+}
+.content H1 {
+	DISPLAY: block; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 16px; MARGIN-BOTTOM: 12px; COLOR: #a32912
+}
+.mzsm {
+	MARGIN: 25px 10px 25px 5px
+}

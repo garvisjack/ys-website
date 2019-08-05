@@ -1,0 +1,277 @@
+.heyue-plan-box {
+padding:10px 0 10px 10px;
+}
+
+.heyue-plan-box .heyue-plan-list {
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+.heyue-plan-box .heyue-plan-list li {
+position:relative;
+float:left;
+display:inline;
+_zoom:1;
+width:225px;
+height:282px;
+margin-right:10px;
+background-repeat:no-repeat;
+background-position:0 0;
+}
+
+.heyue-plan-box .heyue-plan-list li.mi2a {
+color:#91cd50;
+background-image:url(../images/heyue-mi2a.jpg);
+}
+
+.heyue-plan-box .heyue-plan-list li.mi2a .btn-heyue {
+background:#91cd50;
+}
+
+.heyue-plan-box .heyue-plan-list li.hongmi {
+color:#ed5567;
+background-image:url(../images/oneone.png);
+}
+
+.heyue-plan-box .heyue-plan-list li.hongmi .btn-heyue {
+background:#5A9DD7;
+}
+
+
+.heyue-plan-box .heyue-plan-list li.two {
+color:#ed5567;
+background-image:url(../images/twotwo.png);
+}
+
+.heyue-plan-box .heyue-plan-list li.two .btn-heyue {
+background:#5B803A;
+}
+
+.heyue-plan-box .heyue-plan-list li.mi2s-tel {
+color:#5d9cec;
+background-image:url(../images/199.png);
+}
+
+.heyue-plan-box .heyue-plan-list li.mi2s-tel .toggle-list-wrap .toggle-list li a:hover {
+background:#4b89dc;
+}
+
+.heyue-plan-box .heyue-plan-list li.mi2s-uni {
+color:#ac92ec;
+background-image:url(../images/201.png);
+}
+
+.heyue-plan-box .heyue-plan-list li.mi2s-uni .toggle-list-wrap .toggle-list li a:hover {
+background:#967adc;
+}
+
+.heyue-plan-box .heyue-plan-list li .plan-intro,.heyue-plan-box .heyue-plan-list li .action,.heyue-plan-box .heyue-plan-list li .more {
+text-align:center;
+margin:5px 0;
+}
+
+.heyue-plan-box .heyue-plan-list li .plan-intro {
+margin:85px 0 15px;
+}
+
+.heyue-plan-box .heyue-plan-list li .btn-heyue {
+display:block;
+width:110px;
+height:18px;
+border:0;
+font-size:12px;
+line-height:18px;
+color:#fff;
+filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
+margin:0 auto;
+padding:6px 0;
+}
+
+.heyue-plan-box .heyue-plan-list li .more {
+font-size:12px;
+}
+
+.heyue-plan-box .heyue-plan-list li .more a {
+color:#656d78;
+}
+
+.heyue-plan-box .heyue-plan-list .toggle-list-wrap {
+position:relative;
+width:110px;
+margin:0 0 0 97px;
+}
+
+.heyue-plan-box .heyue-plan-list .toggle-list-wrap .toggle-list {
+display:none;
+list-style-type:none;
+position:absolute;
+left:0;
+top:25px;
+z-index:2;
+width:110px;
+-webkit-border-bottom-left-radius:5px;
+-moz-border-radius-bottomleft:5px;
+border-bottom-left-radius:5px;
+-webkit-border-bottom-right-radius:5px;
+-moz-border-radius-bottomright:5px;
+border-bottom-right-radius:5px;
+margin:0;
+padding:5px 0 0;
+}
+
+.heyue-plan-box .heyue-plan-list .toggle-list-wrap .toggle-list li {
+width:110px;
+height:30px;
+font-size:12px;
+line-height:18px;
+color:#fff;
+text-align:center;
+}
+
+.heyue-plan-box .heyue-plan-list .toggle-list-wrap .toggle-list li a {
+display:block;
+height:18px;
+color:#fff;
+padding:6px 0;
+}
+
+.heyue-plan-box .heyue-plan-list .toggle-list-wrap .toggle-list li a:hover {
+color:#fff;
+text-decoration:none;
+}
+
+.heyue-plan-box .heyue-plan-list .toggle-list-wrap .toggle-list li.item-last a {
+-webkit-border-bottom-left-radius:5px;
+-moz-border-radius-bottomleft:5px;
+border-bottom-left-radius:5px;
+-webkit-border-bottom-right-radius:5px;
+-moz-border-radius-bottomright:5px;
+border-bottom-right-radius:5px;
+}
+
+.heyue-bn-box {
+height:120px;
+padding:10px;
+}
+
+.heyue-recharge-box {
+min-height:140px;
+}
+
+.heyue-recharge-box .form-recharge {
+margin:20px 0 0 20px;
+}
+
+.heyue-recharge-box .form-recharge .recharge-tel,.heyue-recharge-box .form-recharge .recharge-amount,.heyue-recharge-box .form-recharge .recharge-price,.heyue-recharge-box .form-recharge .recharge-submit {
+float:left;
+_display:inline;
+margin-right:10px;
+}
+
+.heyue-recharge-box .form-recharge .recharge-tel {
+width:188px;
+}
+
+.heyue-recharge-box .form-recharge .recharge-tel input {
+width:160px;
+height:24px;
+border:1px solid #e6e9ed;
+font-size:12px;
+line-height:24px;
+outline:0;
+-webkit-border-radius:6px;
+-moz-border-radius:6px;
+border-radius:6px;
+-webkit-transition:border-color .3s;
+-moz-transition:border-color .3s;
+-o-transition:border-color .3s;
+transition:border-color .3s;
+padding:7px 13px;
+}
+
+.heyue-recharge-box .form-recharge .recharge-tel input:focus {
+color:#656d78;
+border-color:#ff6f3d;
+}
+
+.heyue-recharge-box .form-recharge .recharge-tips {
+height:18px;
+font-size:12px;
+line-height:18px;
+margin:0;
+padding:2px 0 8px;
+}
+
+.heyue-recharge-box .form-recharge .recharge-amount {
+width:105px;
+}
+
+.heyue-recharge-box .form-recharge .recharge-amount select {
+margin:10px 0 0;
+}
+
+.heyue-recharge-box .form-recharge .recharge-amount .xm-select .dropdown-text,.heyue-recharge-box .form-recharge .recharge-amount .xm-select .dropdown-menu li a,.heyue-recharge-box .form-recharge .recharge-amount .xm-select .dropdown-menu li span {
+display:block;
+width:70px;
+height:18px;
+cursor:pointer;
+padding:10px 20px 10px 10px;
+}
+
+.heyue-recharge-box .form-recharge .recharge-price {
+width:125px;
+font-size:14px;
+color:#ff6f3d;
+}
+
+.heyue-recharge-box .form-recharge .recharge-price span span {
+margin-right:5px;
+font-size:30px;
+line-height:38px;
+}
+
+.heyue-recharge-box .form-recharge .recharge-submit .btn-recharge-submit {
+width:140px;
+height:40px;
+border:0;
+line-height:40px;
+color:#fff;
+background:#ff6f3d;
+filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.heyue-faq-box {
+height:550px;
+}
+
+.heyue-faq-list {
+list-style-type:none;
+font-size:12px;
+margin:0;
+padding:0;
+}
+
+.heyue-faq-list li {
+border-bottom:1px solid #ededed;
+background:url(../images/dot.png) no-repeat 15px 18px;
+padding:10px 10px 10px 25px;
+}
+
+.heyue-plan-box .heyue-plan-list li.mi2s-tel .btn-heyue,.heyue-plan-box .heyue-plan-list li.mi2s-tel .toggle-list-wrap .toggle-list {
+background:#5d9cec;
+}
+
+.heyue-plan-box .heyue-plan-list li.mi2s-uni .btn-heyue,.heyue-plan-box .heyue-plan-list li.mi2s-uni .toggle-list-wrap .toggle-list {
+background:#ac92ec;
+}
+
+@media(max-width1200px) {
+.span12 {
+width:950px;
+}
+
+.span3 {
+display:none;
+}
+}
