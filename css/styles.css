@@ -53,6 +53,8 @@
 	list-style: none none outside;
 	margin: 0px;
 	padding: 0px;
+	background: #fff;
+    margin-bottom: 10px;
 }
 .itemlist li
 {
@@ -70,10 +72,6 @@
 	height: 180px;
 	margin-right: 28px;
 	background: url(itembg1.png) repeat 0 0;
-}
-.itemlist img
-{
-	padding: 6px;
 }
 .itemlist li img:hover
 {

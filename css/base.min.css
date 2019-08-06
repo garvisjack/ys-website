@@ -59,3 +59,47 @@ article,aside,details,figcaption,figure,footer,header,main,nav,section{display:b
     transition: all 500ms ease;
     display: none;
 }
+.product-list-tr{
+    height: 60px;
+    border-bottom: 1px solid #ddd;
+}
+.product-list-logo{
+    height: 40px;
+    width: 100px;
+}
+.learn-more-btn{
+    display: inline-block;
+    padding: 6px 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #009FE4;
+    color:#fff;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.learn-more-btn:hover{
+    background-color: #018ED6;
+    color:#fff;
+}
+.products-box{
+    float: left;
+    position: relative;
+    width: 25%;
+    margin: 20px 0 20px 0;
+}
+.products-box:last-child{
+    margin-right: 0;
+}
+.products-box img{
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    border: 1px solid #f5f5f5;
+    margin-bottom: 10px;
+}
+.products-box p{
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+}
