@@ -119,7 +119,7 @@
                 </div>
                 <div class="row">
                     <div class="span8" style="width:99%"><br />
-                        <div class="xm-box heyue-recharge-box" style="padding: 20px 0 0 0">
+                        <div class="xm-box heyue-recharge-box" style="padding: 20px 0">
                             <div class="hd">
                                 <h3 class="title"><a href="aboutus.htm">翼尚通信</a></h3>
                             </div>
@@ -129,11 +129,28 @@
                         &nbsp;&nbsp;&nbsp;&nbsp;翼尚通信专注：数据通信、接入型基站、车辆自动驾驶辅助、医疗设备、服务机器人、电力电子等行业。翼尚提供上述行业中的雷达感知部件、宽带无线互联器件、半导体开关器件、以及通用元器件（射频滤波器、贴片电容、电感、精密连接器）。翼尚通信认真研究最新的设计方案，提前为客户预备好样品。公司拥有完善的ERP系统和仓储配送网络。辅助设计、快速供货、品质可靠、规格齐全是翼尚通信的优势。翼尚通信已服务多家快速成长的新兴行业的客户，优秀的方案理解能力、快速周到的服务意识得到客户的好评。<br />
 						&nbsp;&nbsp;&nbsp;&nbsp;一家优秀的方案设计公司、一家优秀的新型元器件供应商，是我们最基础的服务。<br />
                            </div>
+                           <a class="home-pic" href="aboutus.htm">
+                                <div class="carousel" id="carousel-autoscroll">
+                                    <ul>
+                                        <li><img src="./images/home/team1.jpg" alt=""></li>
+                                        <li><img src="./images/home/team2.png" alt=""></li>
+                                        <li><img src="./images/home/team3.png" alt=""></li>
+                                        <li><img src="./images/home/team4.png" alt=""></li>
+                                        <li><img src="./images/home/000.png" alt=""></li>
+                                        <li><img src="./images/home/111.png" alt=""></li>
+                                        <li><img src="./images/home/p1.png" alt=""></li>
+                                        <li><img src="./images/home/p2.png" alt=""></li>
+                                        <li><img src="./images/home/p7.png" alt=""></li>
+                                        <li><img src="./images/home/p11.png" alt=""></li>
+                                        <li><img src="./images/home/p12.png" alt=""></li>
+                                        <li><img src="./images/home/p13.png" alt=""></li>
+                                        <li><img src="./images/home/p22.jpg" alt=""></li>
+                                        <li><img src="./images/home/p23.jpg" alt=""></li>
+                                        <li><img src="./images/home/p24.jpg" alt=""></li>
+                                    </ul>
+                                </div>
+                            </a>
 
-						   
-                           <a href="aboutus.htm"><img src="images/main1.jpg" style="display: block;width: 95%;margin: 0 auto;"/></a>
-						   <br />
-<br /><br />
                         </div>
 						
                     </div>
@@ -248,7 +265,18 @@
         </div>
     </div>
     
-    <div class="scroll-top"></div><script type="text/javascript" src="./js/base.min.js"></script>
-
+    <div class="scroll-top"></div>
+    <script type="text/javascript" src="./js/base.min.js"></script>
+    <script src="./js/floatingcarousel.min.js"></script>
+    <script>
+        $('#carousel-autoscroll').floatingCarousel({
+            autoScroll : true,
+            autoScrollDirection : 'left',
+            looped : true,
+            enableTouchEvents : false,
+            autoScrollSpeed : 25000,
+            scrollSpeed : 'slow'
+        });
+    </script>
 </body>
 </html>

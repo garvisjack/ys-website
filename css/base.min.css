@@ -181,3 +181,52 @@ article,aside,details,figcaption,figure,footer,header,main,nav,section{display:b
 .banner-box.p4 .banner-box-btn{
     background: #4DAD79;
 }
+.home-pic{
+    display: block;
+    margin-top: 10px;
+}
+
+.carousel {
+height: 160px;
+padding:0 0 0 2px;
+width: 94%;
+margin: 0 auto;
+}
+.carousel#carousel-vertical {
+height: 160px;
+padding: 0;
+width: auto;
+}
+.carousel#carousel-responsive {
+width: auto;
+}
+.carousel li, 
+.carousel > div > div {
+color: #fff;
+padding:2px 0 2px 2px;
+}
+.home-pi li{
+height: 160px;
+}
+.home-pic li img{
+height: 160px;
+width: 160px;
+}
+.team-work h2{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0 20px 0;
+    font-weight: normal;
+}
+.team-work p{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.team-work img{
+    display: block;
+    width: 660px;
+    height: 660px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
