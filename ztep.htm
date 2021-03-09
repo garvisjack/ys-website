@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html xml:lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>深圳翼尚通信技术有限公司</title><link rel="shortcut icon" href="./images/icons/fav.ico" />
+    <meta name="description" content="深圳翼尚通信技术有限公司" />
+    <meta name="keywords" content="深圳翼尚通信技术有限公司" />
+    <link rel="stylesheet" type="text/css" href="./css/base.min.css" />
+    <script type="text/javascript" src="./js/jquery18.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/heyue-index.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" type="text/css" />
+    
+</head>
+<body>
+    <!-- S 头部 -->
+    <div class="header container">
+        <div class="top">
+            <div class="logo">
+                <a class="icon-common icon-common-logo" href="./index.htm" title="翼尚官网"></a>
+            </div>
+            <div class="right clearfix">
+                <div class="menu">
+                    <ul class="clearfix"> <li><a href="aboutus.htm#employee">人才招聘</a> </li>
+                        <li>
+                            <label id="header_menu_top_login">
+                                <a href="company.htm">企业文化</a>
+                            </label>
+                        </li>
+                        <li><a href="aboutus.htm">关于翼尚</a> </li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <br />
+                    <br />
+                </div>
+                <div class="shop">
+                    <a class="pay" href="contact.htm"><i class="icon-common icon-common-carthover"></i>联系我们</a>
+                </div>
+                <div style="position: absolute; right: 31px; top: 78px;">
+                    <a href="maileto:service@eshinecomm.com.cn">电子邮件：service@eshinecomm.com.cn</a>
+                </div>
+            </div>
+        </div>
+        <div class="nav navon">
+             <div class="clearfix">
+                <strong id="btnnav" class="side"><a href="#" id="company"style="font-size:16px;">深圳翼尚通信技术有限公司<em class="tri"></em></a></strong>
+                <div class="lnks clearfix">
+                    <ul class="lnks-li">
+                        <li><a class="lnk" href="p-rad.htm">毫米波雷达-自主开发</a></li>
+                        <li><a class="lnk" href="p-induct.htm">无线电电路器件</a></li>
+                        <li><a class="lnk" href="p-sem.htm">电容、电感</a></li>
+                        <li><a class="lnk" href="p-clock.htm">时钟源</a></li><li><a class="lnk" href="p-other.htm">其他</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="showlist" class="showlist" style="display:none;">
+               <ul id="showlistUL" class="lists">
+                    <li>
+                        <a class="tit" href="contact.htm#com1">深圳翼尚通信技术有限公司</a>
+                    </li>
+                    <li>
+                        <a class="tit" href="contact.htm#com2">南京翼尚通信技术有限公司</a>
+                    </li>
+                        <a class="tit" href="contact.htm#com3">HONGKONG ESHINE TECHNOLOGY CO., LIMITED</a>
+                    </li>
+                </ul>
+            </div>
+            <script type="text/javascript">
+                var isShowList = false;
+                $("#company").click(function(){
+                      if (!isShowList)
+                      {
+                        $("#showlist").css("display","block");
+                      }
+                      else
+                      {
+                        $("#showlist").css("display","none");
+                      }
+                      isShowList = !isShowList;
+                    <li>
+                      return false;
+                })
+                $("#showlistUL").mouseleave(function(){
+                  $("#showlist").css("display","none");
+                  isShowList = false;
+                })
+            </script>
+        </div>
+    </div>
+    
+    <!-- E 头部 -->
+    <link rel="stylesheet" type="text/css" href="./css/telComStyle.css">
+    <div class="container">
+        <img src="./images/products/zte/5g1.png" alt="" style="margin: 10px auto;display: block;width: 66%">
+        <img src="./images/products/zte/5g2.png" alt="" style="margin: 10px auto;display: block;width: 66%">
+
+    </div>
+    
+    <div class="scroll-top"></div><script type="text/javascript" src="./js/base.min.js"></script>
+
+</body>
+</html>
