@@ -45,10 +45,10 @@
                 <strong id="btnnav" class="side"><a href="#" id="company"style="font-size:16px;">深圳翼尚通信技术有限公司<em class="tri"></em></a></strong>
                 <div class="lnks clearfix">
                     <ul class="lnks-li">
-                        <li><a class="lnk active" href="p-rad.htm">毫米波雷达-自主开发</a></li>
-                        <li><a class="lnk" href="p-induct.htm">无线电电路器件</a></li>
-                        <li><a class="lnk" href="p-sem.htm">电容、电感</a></li>
-                        <li><a class="lnk" href="p-clock.htm">时钟源</a></li><li><a class="lnk" href="p-other.htm">其他</a></li>
+                        <li><a class="lnk active" href="p-rad.htm">毫米波雷达</a></li>
+                        <li><a class="lnk" href="p-sem.htm">物联网位置传感器</a></li>
+                        <li><a class="lnk" href="p-induct.htm">射频电路元器件</a></li>
+                        
                     </ul>
                 </div>
             </div>
@@ -89,74 +89,27 @@
     
     <!-- E 头部 -->
     <link rel="stylesheet" type="text/css" href="./css/telComStyle.css">
-    <div class="container">
+    <div class="container" style="background:#fff;position: relative;">
+        <ul class="menu-ul">
+            <li><a href="#pard1">77G车载毫米波雷达系统</a></li>
+        </ul>
         <!-- item -->
-        <table width="100%" border="0" cellspacing="0" cellpadding="3" class="itemlist">
+        <table width="100%" border="0" cellspacing="0" cellpadding="3">
             <tr class="product-list-tr">
-                <td width="15%" align="center" style="background:#fff;border-bottom: 1px solid #fff">
-                    <img src="./images/logos/p-rad1.png" class="product-list-logo">
-                </td>
-                <td width="65%" align="left" style="padding-left:10px;"> 77GHz毫米波雷达 / 开发套件 / 车载毫米波雷达系统 / 商用车、乘用车毫米波雷达</td>
                 <td width="20%" align="center">
-                    <a href="http://www.chengtech.com/index.php?m=news&a=index&classify_id=214" target="_blank" class="learn-more-btn">了解更多 / More</a>
                 </td>
-            </tr>
-            <tr>
-                <td width="15%" align="center" style="background:#fff">
-                <td colspan="3" align="left">
-                   <div class="products-box">
-                       <img src="./images/products/chengtech/1.png" alt="">
-                       <p>前向中长距毫米波雷达</p>
-                   </div>
-                   <div class="products-box">
-                        <img src="./images/products/chengtech/2.png" alt="">
-                        <p>V2短距侧向毫米波雷达</p>
+                <td width="80%" align="left" class="product-item">
+                    <div class="product-title" id="pard1">
+                        <span class="label"><i class="arrow-right"></i>77G车载毫米波雷达系统<span class="line"></span></span>
                     </div>
-                    <div class="products-box">
-                        <img src="./images/products/chengtech/3.png" alt="">
-                        <p>79GHz毫米波角雷达</p>
-                    </div>
-                    <div class="products-box">
-                        <img src="./images/products/chengtech/4.png" alt="">
-                        <p>毫米波雷达开发套件</p>
+                    <div class="product-content">
+                        <h3>系列描述：我司具备60G、77G及79G频段毫米波雷达研发、制造能力，可为客户提供完整的毫米波雷达传感器和系统。</h3>
+                        <img src="./images/info/1.png" alt="">
                     </div>
                 </td>
             </tr>
         </table> 
 
-        <!-- item -->
-        <!-- <table width="100%" border="0" cellspacing="0" cellpadding="3" class="itemlist">
-            <tr class="product-list-tr">
-                <td width="15%" align="center" style="background:#fff;border-bottom: 1px solid #fff">
-                    <img src="./images/logos/p-rad2.png" class="product-list-logo">
-                </td>
-                <td width="65%" align="left" style="padding-left:10px;"> Alps / Yellowstone / Yosemite</td>
-                <td width="20%" align="center">
-                    <a href="http://www.calterah.com/" target="_blank" class="learn-more-btn">了解更多 / More</a>
-                </td>
-            </tr>
-            <tr>
-                <td width="15%" align="center" style="background:#fff">
-                <td colspan="3" align="left">
-                    <div class="products-box">
-                        <img src="./images/products/calterah/1.png" alt="">
-                        <p>CAL77S244-AA</p>
-                    </div>
-                    <div class="products-box">
-                        <img src="./images/products/calterah/2.png" alt="">
-                        <p>Yellowstone 60GHz CMOS</p>
-                    </div>
-                    <div class="products-box">
-                        <img src="./images/products/calterah/3.png" alt="">
-                        <p>Yosemite 77GHz CMOS CAL77A4T8R</p>
-                    </div>
-                    <div class="products-box">
-                        <img src="./images/products/calterah/4.png" alt="">
-                        <p>Yosemite 77GHz CMOS CAL77A2T4R</p>
-                    </div>
-                </td>
-            </tr>
-        </table>  -->
     </div>
     
     <!--常见问题-->
@@ -168,22 +121,6 @@
         <div class="modal-body"></div>
     </div>
     
-
-    <script type="text/javascript">
-    jQuery(function ($) {
-        $(".showFaq").click(function(){
-          var lab = $(this).attr("lab");
-          if (lab.length > 0)
-          {
-             $("#hyFaq h3").html(lab);
-          }  
-          $("#hyFaq").modal("show");
-          var t=$(this).attr("url");
-          $("#hyFaq").find(".modal-body").load(t);
-          return false;
-        })
-    });
-</script>
 
     <!-- SS 底部 -->
     <div class="footer container">
